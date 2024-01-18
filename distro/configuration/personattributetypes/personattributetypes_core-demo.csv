@@ -1,3 +1,4 @@
 Uuid,Void/Retire,Name,Description,Format,Foreign,Searchable
-14d4f066-15f5-102d-96e4-000c29c2a5d7,0,Telephone Number,The telephone number for the person,java.lang.String,,,
+b2c38640-2603-4629-aebd-3b54f33f1e3a,0,Telephone Number,The telephone number for the person,java.lang.String,,,
 8b56eac7-5c76-4b9c-8c6f-1deab8d3fc47,,Unknown patient,Used to flag patients that cannot be identified during the check-in process,java.lang.String,,,
+94614350-84c8-41e0-ac29-86bc107069be,,Alternate phone number,Alternate telephone number for the person,java.lang.String,,,

@@ -22,16 +22,20 @@
     "@openmrs/esm-patient-registration-app": {
         "sectionDefinitions": [
             {
-                "id": "demographics",
-                "name": "Basic Info",
-                "fields":[
-                    "name",
-                    "gender",
-                    "dob",
-                    "id",
-                    "opd"
+                "id": "contact",
+                "name": "Contact Details",
+                "fields": [
+                  "address",
+                  "phone",
+                  "alternatePhone",
+                  "address.address1",
+                  "address.address6",
+                  "address.address5",
+                  "address.cityVillage",
+                  "address.address2",
+                  "healthCenter"
                 ]
-            }
+              }
         ],
         "sections": [
             "demographics",
@@ -40,15 +44,62 @@
         ],
         "fieldDefinitions": [
             {
-                "id": "opd",
-                "type": "patient identifier",
-                "uuid": "164180AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "label":"Unique OPD Number",
+                "id": "phone",
+                "type": "person attribute",
+                "uuid": "b2c38640-2603-4629-aebd-3b54f33f1e3a",
+                "label": "Telephone contact",
                 "validation": {
-                    "required": false,
-                    "matches": ""
+                  "required": true,
+                  "matches": "^0([0-9](?:(?:[0-9][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                 }
-            }
-        ]
+              },
+              {
+                "id": "alternatePhone",
+                "type": "person attribute",
+                "uuid": "94614350-84c8-41e0-ac29-86bc107069be",
+                "label": "Alternate phone number",
+                "validation": {
+                  "matches": "^0([0-9](?:(?:[0-9][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                }
+              },
+              {
+                "id": "address.address1",
+                "type": "address",
+                "label": "Postal Address"
+              },
+              {
+                "id": "address.address6",
+                "type": "address",
+                "label": "Location"
+              },
+              {
+                "id": "address.address5",
+                "type": "address",
+                "label": "Sub-location"
+              },
+              {
+                "id": "address.cityVillage",
+                "type": "address",
+                "label": "Village",
+                "validation": {
+                  "required": true
+                }
+              },
+              {
+                "id": "address.address2",
+                "type": "address",
+                "label": "Landmark"
+              }
+        ],
+        "address": {
+          "useAddressHierarchy": {
+            "useAddressHierarchyLabel": {
+              "countyDistrict": "County",
+              "address4": "Ward",
+              "stateProvince": "Sub county"
+            },
+            "searchAddressByLevel": true
+          }
+        }
     }
 }

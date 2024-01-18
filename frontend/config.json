@@ -1,105 +1,72 @@
 {
-    "@openmrs/esm-styleguide": {
-        "Brand color #1": "#235787",
-        "Brand color #2": "#235787",
-        "Brand color #3": "#FC8EAC"
-    },
-    "@openmrs/esm-login-app": {
-        "logo": {
-            "src": "/openmrs/spa/login-icon.png"
-        }
-    },
-    "@openmrs/esm-primary-navigation-app": {
-        "logo": {
-            "src": "/openmrs/spa/primary-navigation.png"
-        }
-    },
-    "@openmrs/esm-patient-chart-app": {
-        "logo": {
-            "src": "/openmrs/spa/primary-navigation.png"
-        }
-    },
-    "@openmrs/esm-patient-registration-app": {
-        "sectionDefinitions": [
-            {
-                "id": "contact",
-                "name": "Contact Details",
-                "fields": [
-                  "address",
-                  "phone",
-                  "alternatePhone",
-                  "address.address1",
-                  "address.address6",
-                  "address.address5",
-                  "address.cityVillage",
-                  "address.address2",
-                  "healthCenter"
-                ]
+  "@openmrs/esm-styleguide": {
+      "Brand color #1": "#235787",
+      "Brand color #2": "#235787",
+      "Brand color #3": "#FC8EAC"
+  },
+  "@openmrs/esm-login-app": {
+      "logo": {
+          "src": "/openmrs/spa/login-icon.png"
+      }
+  },
+  "@openmrs/esm-primary-navigation-app": {
+      "logo": {
+          "src": "/openmrs/spa/primary-navigation.png"
+      }
+  },
+  "@openmrs/esm-patient-chart-app": {
+      "logo": {
+          "src": "/openmrs/spa/primary-navigation.png"
+      }
+  },
+  "@openmrs/esm-patient-registration-app": {
+      "sectionDefinitions": [
+          {
+              "id": "contact",
+              "name": "Contact Details",
+              "fields": [
+                "address",
+                "phone",
+                "alternatePhone"
+              ]
+            }
+      ],
+      "sections": [
+          "demographics",
+          "contact",
+          "relationships"
+      ],
+      "fieldDefinitions": [
+          {
+              "id": "phone",
+              "type": "person attribute",
+              "uuid": "b2c38640-2603-4629-aebd-3b54f33f1e3a",
+              "label": "Telephone contact",
+              "validation": {
+                "required": true,
+                "matches": "^0([0-9](?:(?:[0-9][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
               }
-        ],
-        "sections": [
-            "demographics",
-            "contact",
-            "relationships"
-        ],
-        "fieldDefinitions": [
+            },
             {
-                "id": "phone",
-                "type": "person attribute",
-                "uuid": "b2c38640-2603-4629-aebd-3b54f33f1e3a",
-                "label": "Telephone contact",
-                "validation": {
-                  "required": true,
-                  "matches": "^0([0-9](?:(?:[0-9][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                }
-              },
-              {
-                "id": "alternatePhone",
-                "type": "person attribute",
-                "uuid": "94614350-84c8-41e0-ac29-86bc107069be",
-                "label": "Alternate phone number",
-                "validation": {
-                  "matches": "^0([0-9](?:(?:[0-9][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                }
-              },
-              {
-                "id": "address.address1",
-                "type": "address",
-                "label": "Postal Address"
-              },
-              {
-                "id": "address.address6",
-                "type": "address",
-                "label": "Location"
-              },
-              {
-                "id": "address.address5",
-                "type": "address",
-                "label": "Sub-location"
-              },
-              {
-                "id": "address.cityVillage",
-                "type": "address",
-                "label": "Village",
-                "validation": {
-                  "required": true
-                }
-              },
-              {
-                "id": "address.address2",
-                "type": "address",
-                "label": "Landmark"
+              "id": "alternatePhone",
+              "type": "person attribute",
+              "uuid": "94614350-84c8-41e0-ac29-86bc107069be",
+              "label": "Alternate phone number",
+              "validation": {
+                "matches": "^0([0-9](?:(?:[0-9][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
               }
-        ],
-        "address": {
+            }
+      ],
+      "address": {
           "useAddressHierarchy": {
             "useAddressHierarchyLabel": {
               "countyDistrict": "County",
-              "address4": "Ward",
-              "stateProvince": "Sub county"
+              "stateProvince": "Sub county",
+              "address3": "Ward"
+              
             },
             "searchAddressByLevel": true
           }
         }
-    }
+  }
 }

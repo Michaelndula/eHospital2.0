@@ -11,73 +11,191 @@
           "questions": [
             {
               "label": "Chief Complian",
-              "id": "co",
-              "type": "obs",
+              "type": "obsGroup",
               "required": true,
+              "id": "chiefComplain",
               "questionOptions": {
-                "rendering": "text",
-                "concept": "f3c308eb-224a-4f36-9b1e-bea4b5030eb7"
-              }
-            },
+                "rendering": "repeating",
+                "concept": "5f45f154-a8cc-4a00-8930-8afbcc71a70b"
+              },
+              "questions": [
+                {
+                  "label": "Chief Complian",
+                  "id": "co",
+                  "type": "obs",
+                  "required": false,
+                  "questionOptions": {
+                    "rendering": "text",
+                    "concept": "f3c308eb-224a-4f36-9b1e-bea4b5030eb7"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "History of Presenting illness",
+          "isExpanded": "true",
+          "questions": [
             {
-              "label": "History of Presenting illness",
-              "id": "historyOfPresentingIllness",
-              "type": "obs",
+              "type": "obsGroup",
               "required": true,
+              "id": "historyOfPresentingIllnessSection",
               "questionOptions": {
-                "rendering": "text",
-                "concept": "940e138d-399f-42dc-a28c-1d7709e917cc"
-              }
-            },
+                "rendering": "repeating",
+                "concept": "adbfa883-efa1-4393-a9ab-015566c6ea42"
+              },
+              "questions": [
+                {
+                  "label": "History of Presenting illness",
+                  "id": "historyOfPresentingIllness",
+                  "type": "obs",
+                  "required": false,
+                  "questionOptions": {
+                    "rendering": "text",
+                    "concept": "940e138d-399f-42dc-a28c-1d7709e917cc"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "General Examination",
+          "isExpanded": "true",
+          "questions": [
             {
-              "label": "General Examination",
-              "id": "generalExamination",
-              "type": "obs",
+              "type": "obsGroup",
               "required": true,
+              "id": "generalExaminationSection",
               "questionOptions": {
-                "rendering": "text",
-                "concept": "5d72820a-de18-4de3-bd88-803abc61a0ba"
-              }
-            },
+                "rendering": "repeating",
+                "concept": "b2eb5496-e708-44ad-bce4-8a976941ca44"
+              },
+              "questions": [
+                {
+                  "label": "General Examination",
+                  "id": "generalExamination",
+                  "type": "obs",
+                  "required": false,
+                  "questionOptions": {
+                    "rendering": "text",
+                    "concept": "5d72820a-de18-4de3-bd88-803abc61a0ba"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Systemic Examination",
+          "isExpanded": "true",
+          "questions": [
             {
               "label": "Systemic Examination",
-              "id": "systemicExamination",
-              "type": "obs",
+              "type": "obsGroup",
               "required": true,
+              "id": "systemicExaminationSection",
               "questionOptions": {
-                "rendering": "text",
-                "concept": "c0462e9b-d91b-4e14-a249-4120362ad0da"
-              }
-            },
+                "rendering": "repeating",
+                "concept": "98554c7b-cdec-41cb-b1f6-10972a6139b2"
+              },
+              "questions": [
+                {
+                  "label": "Systemic Examination",
+                  "id": "systemicExamination",
+                  "type": "obs",
+                  "required": false,
+                  "questionOptions": {
+                    "rendering": "text",
+                    "concept": "c0462e9b-d91b-4e14-a249-4120362ad0da"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Impressions/Diagnosis",
+          "isExpanded": "true",
+          "questions": [
             {
-              "label": "Impressions/Diagnosisn",
-              "id": "impressionsDiagnosis",
-              "type": "obs",
+              "label": "Impressions/Diagnosis",
+              "type": "obsGroup",
               "required": true,
+              "id": "impressionsDiagnosisSection",
               "questionOptions": {
-                "rendering": "text",
-                "concept": "759bf916-5549-4fe1-a588-a399ba04dfd5"
-              }
-            },
+                "rendering": "repeating",
+                "concept": "35b212be-b951-484e-ab67-7e27f65445c3"
+              },
+              "questions": [
+                {
+                  "label": "Impressions/Diagnosis",
+                  "id": "impressionsDiagnosis",
+                  "type": "obs",
+                  "required": false,
+                  "questionOptions": {
+                    "rendering": "text",
+                    "concept": "759bf916-5549-4fe1-a588-a399ba04dfd5"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Treatment Plan",
+          "isExpanded": "true",
+          "questions": [
             {
               "label": "Treatment Plan",
-              "id": "treatment",
-              "type": "obs",
+              "type": "obsGroup",
               "required": true,
+              "id": "treatmentPlanSection",
               "questionOptions": {
-                "rendering": "text",
-                "concept": "e670dc2a-0c21-4fda-a8df-d9b7b1ca87ec"
-              }
-            },
+                "rendering": "repeating",
+                "concept": "d0327c30-66b0-46bf-9649-f0f740273dde"
+              },
+              "questions": [
+                {
+                  "label": "Treatment Plan",
+                  "id": "treatment",
+                  "type": "obs",
+                  "required": false,
+                  "questionOptions": {
+                    "rendering": "text",
+                    "concept": "e670dc2a-0c21-4fda-a8df-d9b7b1ca87ec"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "TCA",
+          "isExpanded": "true",
+          "questions": [
             {
               "label": "TCA",
-              "id": "tca",
-              "type": "obs",
+              "type": "obsGroup",
               "required": true,
+              "id": "tcaSection",
               "questionOptions": {
-                "rendering": "text",
-                "concept": "d08b33dd-d807-460a-a91e-049c30b7a0aa"
-              }
+                "rendering": "repeating",
+                "concept": "7619cf81-313d-4fcd-bdb1-57f94c376d58"
+              },
+              "questions": [
+                {
+                  "label": "TCA",
+                  "id": "tca",
+                  "type": "obs",
+                  "required": false,
+                  "questionOptions": {
+                    "rendering": "text",
+                    "concept": "d08b33dd-d807-460a-a91e-049c30b7a0aa"
+                  }
+                }
+              ]
             }
           ]
         }

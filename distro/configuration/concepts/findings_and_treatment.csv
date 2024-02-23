@@ -1,9 +1,16 @@
-Uuid,Void/Retire,Fully specified name:en,Short name:en,Description:en,...,_version:1,_order:150,Data class,Data type,Answers
-f3c308eb-224a-4f36-9b1e-bea4b5030eb7,,Chief Complain,Chief Complain,,,,,Question,Text,
-940e138d-399f-42dc-a28c-1d7709e917cc,,History of Presenting illness,History of Presenting illness,,,,,Question,Text,
-5d72820a-de18-4de3-bd88-803abc61a0ba,,General Examination,General Examination,,,,,Question,Text,
-c0462e9b-d91b-4e14-a249-4120362ad0da,,Systemic Examination,Systemic Examination,,,,,Question,Text,
-759bf916-5549-4fe1-a588-a399ba04dfd5,,Impressions/Diagnosis,Impressions/Diagnosis,,,,,Question,Text,
-e670dc2a-0c21-4fda-a8df-d9b7b1ca87ec,,Treatment Plan,Treatment Plan,,,,,Question,Text,
-d08b33dd-d807-460a-a91e-049c30b7a0aa,,TCA,TCA,,,,,Question,Text,
-45e967c8-a275-4000-93c1-172559a96dc2,,Labs,Labs,,,,,Question,Text,
+Uuid,Void/Retire,Fully specified name:en,Short name:en,Description:en,...,_version:1,_order:150,Data class,Data type,Answers,Members
+f3c308eb-224a-4f36-9b1e-bea4b5030eb7,,Chief Complain,Chief Complain,,,,,Question,Text,,
+940e138d-399f-42dc-a28c-1d7709e917cc,,History of Presenting illness,History of Presenting illness,,,,,Question,Text,,
+5d72820a-de18-4de3-bd88-803abc61a0ba,,General Examination,General Examination,,,,,Question,Text,,
+c0462e9b-d91b-4e14-a249-4120362ad0da,,Systemic Examination,Systemic Examination,,,,,Question,Text,,
+759bf916-5549-4fe1-a588-a399ba04dfd5,,Impressions/Diagnosis,Impressions/Diagnosis,,,,,Question,Text,,
+e670dc2a-0c21-4fda-a8df-d9b7b1ca87ec,,Treatment Plan,Treatment Plan,,,,,Question,Text,,
+d08b33dd-d807-460a-a91e-049c30b7a0aa,,TCA,TCA,,,,,Question,Text,,
+45e967c8-a275-4000-93c1-172559a96dc2,,Labs,Labs,,,,,Question,Text,,
+5f45f154-a8cc-4a00-8930-8afbcc71a70b,,Chief Complain Section,Chief Complain Section,,,,,Misc,N/A,,Chief Complain
+adbfa883-efa1-4393-a9ab-015566c6ea42,,History of Presenting illness Section,History of Presenting illness Section,,,,,Misc,N/A,,History of Presenting illness
+b2eb5496-e708-44ad-bce4-8a976941ca44,,General Examination Section,General Examination Section,,,,,Misc,N/A,,General Examination
+98554c7b-cdec-41cb-b1f6-10972a6139b2,,Systemic Examination Section,Systemic Examination Section,,,,,Misc,N/A,,Systemic Examination
+35b212be-b951-484e-ab67-7e27f65445c3,,Impressions/Diagnosis Section,Impressions/Diagnosis Section,,,,,Misc,N/A,,Impressions/Diagnosis
+d0327c30-66b0-46bf-9649-f0f740273dde,,Treatment Plan Section,Treatment Plan Section,,,,,Misc,N/A,,Treatment Plan
+7619cf81-313d-4fcd-bdb1-57f94c376d58,,TCA Section,TCA Section,,,,,Misc,N/A,,TCA

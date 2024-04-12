@@ -34,7 +34,7 @@
     "@openmrs/esm-fast-data-entry-app": "next",
     "@openmrs/esm-cohort-builder-app": "next",
     "@openmrs/esm-form-builder-app": "next",
-    "@sjthc/esm-patient-list-app": "1.0.5"
+    "@sjthc/esm-patient-list-app": "1.0.7"
   },
   "spaPath": "$SPA_PATH",
   "apiUrl": "$API_URL",

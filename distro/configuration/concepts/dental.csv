@@ -1,0 +1,18 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Description:en,...,_version:1,_order:1001,Data class,Data type,Answers,Members
+3b7fcddc-092d-4e4a-81ff-57e2e9d61e23,,,Filling,Filling,,,,,Misc,N/A,,
+bbe168c4-d6ba-449f-b900-3100c585dbfb,,,Extraction Adult,Extraction Adult,,,,,Misc,N/A,,
+28b3d4af-7e1a-4a32-b7a7-f953e01876d9,,,Extraction Child,Extraction Child,,,,,Misc,N/A,,
+2de902fa-22b2-4daa-b42a-4ee3b221f7c4,,,Root Canal treatment,Root Canal treatment,,,,,Misc,N/A,,
+fbcc905d-6584-471b-9702-99bc277729a8,,,Full Mouth Scaling,Full Mouth Scaling,,,,,Misc,N/A,,
+d51be43f-4781-4b58-833e-2b08badcb84f,,,Extraction Last Molars,Extraction Last Molars,,,,,Misc,N/A,,
+00d5340c-a53b-4b94-9f2e-ed2d51d57173,,,Masking Per Tooth,Masking Per Tooth,,,,,Misc,N/A,,
+595fd534-3612-422a-9dfa-e4cd34cdb337,,,Other Dental procedure,Other Dental procedure,,,,,Misc,N/A,,
+d7183d0d-1f07-4dc4-a16a-a66e9e4a22b3,,,Dental procedure,,,,,,Question,Coded,"Filling;
+Extraction Adult;
+Extraction Child;
+Root Canal treatment;
+Full Mouth Scaling;
+Extraction Last Molars;
+Masking Per Tooth;
+Other Dental procedure",
+0e6c3b2e-cd0c-4eb1-a6e8-bdc4855d81d5,,,Other Dental procedure Specify,,,,,,Question,Text,,

@@ -1,0 +1,116 @@
+{
+    "name": "Dental",
+    "version": "1.0.0",
+    "published": true,
+    "retired": false,
+    "encounter": "Dental",
+    "pages": [
+      {
+        "label": "Visit details",
+        "sections": [
+          {
+            "label": "Visit details",
+            "isExpanded": "true",
+            "questions": [
+              {
+                "label": "Date:",
+                "type": "encounterDatetime",
+                "questionOptions": {
+                  "rendering": "ui-select-extended"
+                },
+                "id": "encDate"
+              },
+              {
+                "label": "Provider:",
+                "type": "encounterProvider",
+                "questionOptions": {
+                  "rendering": "ui-select-extended"
+                },
+                "id": "encProvider "
+              },
+              {
+                "label": "Health Facility name:",
+                "type": "encounterLocation",
+                "questionOptions": {
+                  "rendering": "ui-select-extended"
+                },
+                "id": "encLocation"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Dental Details",
+        "sections": [
+          {
+            "label": "",
+            "isExpanded": "true",
+            "questions": [
+              {
+                "label": "Dental procedure",
+                "type": "obs",
+                "required": true,
+                "id": "dentalProcedure",
+                "questionOptions": {
+                  "rendering": "select",
+                  "concept": "d7183d0d-1f07-4dc4-a16a-a66e9e4a22b3",
+                  "answers": [
+                    {
+                      "concept": "3b7fcddc-092d-4e4a-81ff-57e2e9d61e23",
+                      "label": "Filling"
+                    },
+                    {
+                      "concept": "bbe168c4-d6ba-449f-b900-3100c585dbfb",
+                      "label": "Extraction Adult"
+                    },
+                    {
+                      "concept": "28b3d4af-7e1a-4a32-b7a7-f953e01876d9",
+                      "label": "Extraction Child"
+                    },
+                    {
+                      "concept": "2de902fa-22b2-4daa-b42a-4ee3b221f7c4",
+                      "label": "Root Canal treatment"
+                    },
+                    {
+                      "concept": "fbcc905d-6584-471b-9702-99bc277729a8",
+                      "label": "Full Mouth Scaling"
+                    },
+                    {
+                      "concept": "d51be43f-4781-4b58-833e-2b08badcb84f",
+                      "label": "Extraction Last Molars"
+                    },
+                    {
+                      "concept": "00d5340c-a53b-4b94-9f2e-ed2d51d57173",
+                      "label": "Masking Per Tooth"
+                    },
+                    {
+                      "concept": "595fd534-3612-422a-9dfa-e4cd34cdb337",
+                      "label": "Other"
+                    }
+                  ]
+                }
+              },
+              {
+                "label": "Specify Other Dental Procedure",
+                "required": false,
+                "id": "dentalProcedureOtherSpecify",
+                "questionOptions": {
+                  "rendering": "text",
+                  "concept": "0e6c3b2e-cd0c-4eb1-a6e8-bdc4855d81d5",
+                  "answers": []
+                },
+                "validators": [],
+                "hide": {
+                  "hideWhenExpression": "dentalProcedure !== '595fd534-3612-422a-9dfa-e4cd34cdb337'"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "description": "Dental Form",
+    "encounterType": "83438e95-60ca-4a76-bcca-c05e5734f836",
+    "uuid": "6959e91a-8e22-4e7a-b4c0-2d295e83f298"
+  }

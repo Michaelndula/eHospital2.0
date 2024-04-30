@@ -22,6 +22,9 @@ RUN echo "Copying required files ..." && \
 
 RUN if [ ! -f ./spa/index.html ]; then echo 'Build failed. Please check the logs above for details. This may have happened because of an update to a library that OpenMRS depends on.'; exit 1; fi
 
+# Modify page title
+RUN sed -i 's/<title>.*<\/title>/<title>SJHC<\/title>/' ./spa/index.html
+
 FROM nginx:1.25-alpine
 
 RUN apk update && \

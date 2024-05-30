@@ -385,6 +385,19 @@
               }
             },
             {
+              "label": "Please place an appointment for the Patient",
+              "required": true,
+              "id": "appointmentWorkspaceLauncher",
+              "questionOptions": {
+                "rendering": "workspace-launcher",
+                "buttonLabel": "Add appointments",
+                "workspaceName": "appointments-form-workspace"
+              },
+              "hide": {
+                "hideWhenExpression": "tca !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
+              }
+            },
+            {
               "label": "Add Comment",
               "type": "obsGroup",
               "required": true,

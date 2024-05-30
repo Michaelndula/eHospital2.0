@@ -124,7 +124,8 @@
               "required": false,
               "questionOptions": {
                 "rendering": "number",
-                "concept": "9adb2c60-b34d-4c3e-961b-03bd0c581e45"
+                "concept": "9adb2c60-b34d-4c3e-961b-03bd0c581e45",
+                "min": "0"
               },
               "hide": {
                 "hideWhenExpression": "sex === 'M' || !(age >= 9 && age <= 45)"

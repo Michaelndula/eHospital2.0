@@ -1,5 +1,5 @@
 {
-  "name": "A. Triage",
+  "name": "1. Triage",
   "description": "Triage",
   "version": "1.0.0",
   "published": true,
@@ -247,19 +247,6 @@
               },
               "hide": {
                 "hideWhenExpression": "!(age >= 0 && age <=5)"
-              }
-            },
-            {
-              "label": "LMP",
-              "type": "obs",
-              "id": "lmp",
-              "required": false,
-              "questionOptions": {
-                "rendering": "date",
-                "concept": "1427AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              },
-              "hide": {
-                "hideWhenExpression": "sex === 'M' || !(age >= 9 && age <= 45)"
               }
             }
           ]

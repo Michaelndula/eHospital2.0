@@ -24,7 +24,6 @@
     "@openmrs/esm-appointments-app": "next",
     "@openmrs/esm-service-queues-app": "next",
     "@openmrs/esm-patient-list-management-app": "next",
-    "@sjthc/esm-patient-registration-app": "5.2.8",
     "@openmrs/esm-patient-search-app": "next",
     "@openmrs/esm-openconceptlab-app": "next",
     "@openmrs/esm-system-admin-app": "next",
@@ -32,7 +31,10 @@
     "@openmrs/esm-fast-data-entry-app": "next",
     "@openmrs/esm-cohort-builder-app": "next",
     "@openmrs/esm-form-builder-app": "next",
-    "@sjthc/esm-patient-list-app": "1.0.9"
+    "@sjthc/esm-patient-registration-app": "5.2.8",
+    "@sjthc/esm-patient-list-app": "1.1.1",
+    "@sjthc/esm-reports-app": "1.0.1",
+    "@sjthc/esm-billing-app": "1.0.1"
   },
   "spaPath": "$SPA_PATH",
   "apiUrl": "$API_URL",

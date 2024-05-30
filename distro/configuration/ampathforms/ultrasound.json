@@ -1,46 +1,10 @@
 {
-    "name": "D. UltraSound",
+    "name": "4. UltraSound",
     "version": "1.0.0",
     "published": true,
     "retired": false,
     "encounter": "Ultra Sound",
     "pages": [
-      {
-        "label": "Visit details",
-        "sections": [
-          {
-            "label": "Visit details",
-            "isExpanded": "true",
-            "questions": [
-              {
-                "label": "Date:",
-                "type": "obs",
-                "questionOptions": {
-                  "rendering": "date",
-                  "concept":"21eced40-aa0d-47a7-bb9a-a5a3fc51a184"
-                },
-                "id": "encDate"
-              },
-              {
-                "label": "Provider:",
-                "type": "encounterProvider",
-                "questionOptions": {
-                  "rendering": "ui-select-extended"
-                },
-                "id": "encProvider "
-              },
-              {
-                "label": "Department",
-                "type": "encounterLocation",
-                "questionOptions": {
-                  "rendering": "ui-select-extended"
-                },
-                "id": "encLocation"
-              }
-            ]
-          }
-        ]
-      },
       {
         "label": "Ultrasound Details",
         "sections": [

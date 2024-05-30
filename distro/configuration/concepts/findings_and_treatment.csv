@@ -8,9 +8,11 @@ f3c308eb-224a-4f36-9b1e-bea4b5030eb7,,,Chief Complain,Chief Complain,,,,,Questio
 5f9375cd-3138-4f41-96a1-ffab4910ce98,,,General Examination,General Examination,,,,,Question,Coded,"Normal;
 Abnormal",
 5d72820a-de18-4de3-bd88-803abc61a0ba,,,General Examination Explain,General Examination Explain,,,,,Question,Text,,
+daf8e0c0-ef5b-4568-8564-6a57358e1756,,,General Examination Comment,General Examination Comment,,,,,Question,Text,,
 1882a72e-388e-40a7-8fcf-a6c46528fe8b,,,Systemic Examination,Systemic Examination,,,,,Question,Coded,"Normal;
 Abnormal",
 c0462e9b-d91b-4e14-a249-4120362ad0da,,,Systemic Examination Explain,Systemic Examination Explain,,,,,Question,Text,,
+d5771e6e-0f9c-4d3f-b9ab-56e545bc3e10,,,Systemic Examination Comment,Systemic Examination Comment,,,,,Question,Text,,
 0e227ebc-186d-48e1-bc2f-6c8e89ca0eaa,,,Investigation,Investigation,,,,,Question,Text,,
 759bf916-5549-4fe1-a588-a399ba04dfd5,,,Impressions/Diagnosis,Impressions/Diagnosis,,,,,Question,Text,,
 e670dc2a-0c21-4fda-a8df-d9b7b1ca87ec,,,Treatment Plan,Treatment Plan,,,,,Question,Text,,
@@ -31,3 +33,11 @@ d0327c30-66b0-46bf-9649-f0f740273dde,,,Treatment Plan Section,Treatment Plan Sec
 Freetext general",This is a freetext field for general use. It should be tied to another concept as a child.,,,,Question,Text,,
 7c972f28-dbdf-4a8a-8b60-937ef2592324,,,Reason for Visit,Reason for Visit,,,,,Question,Text,,
 324e55a6-2a39-496a-8e56-54281efcfebd,,,Triage Notes,Triage Notes,,,,,Question,Text,,
+d85b298f-2819-49b1-b716-1c0cee69212c,,,Obstetrics and Gynaecology,Obstetrics and Gynaecology,,,,,Question,Text,,
+b0863993-4b65-4d34-82a8-ed8bc1bd2598,,,Abstinence,Abstinence,,,,,Misc,N/A,,
+f8e6bcff-4557-408a-8797-dabb64ccfd57,,,Other Family Planning,Other Family Planning,,,,,Misc,N/A,,
+2eac1d32-0d14-43d7-b188-a6acb215e626,,,Family planning,Family planning,,,,,Question,Coded,"Abstinence;
+Other Family Planning",
+62340009-748b-4b4c-87fa-8d1b2ca96ea0,,,Other Family Planning Specify,Other Family Planning Specify,,,,,Question,Text,,
+"9adb2c60-b34d-4c3e-961b-03bd0c581e45
+",,,Number of previous pregnancies,Number of previous pregnancies,,,,,Question,Numeric,,

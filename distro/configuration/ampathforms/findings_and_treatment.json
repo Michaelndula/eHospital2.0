@@ -1,5 +1,5 @@
 {
-  "name": "B. Findings and Treatment",
+  "name": "2. Findings and Treatment",
   "version": "1.0.0",
   "published": true,
   "retired": false,
@@ -26,8 +26,8 @@
                     "label": "Yes"
                   },
                   {
-                      "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                      "label": "No"
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
                   }
                 ]
               }
@@ -114,6 +114,100 @@
           ]
         },
         {
+          "label": "",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Number of previous pregnancies",
+              "type": "obs",
+              "id": "numberOfPreviousPregnancies",
+              "required": false,
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "9adb2c60-b34d-4c3e-961b-03bd0c581e45"
+              },
+              "hide": {
+                "hideWhenExpression": "sex === 'M' || !(age >= 9 && age <= 45)"
+              }
+            },
+            {
+              "label": "LMP",
+              "type": "obs",
+              "id": "lmp",
+              "required": false,
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "1427AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "hide": {
+                "hideWhenExpression": "sex === 'M' || !(age >= 9 && age <= 45)"
+              }
+            },
+            {
+              "label": "Family planning",
+              "type": "obs",
+              "id": "familyPlanning",
+              "required": false,
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "2eac1d32-0d14-43d7-b188-a6acb215e626",
+                "answers": [
+                  {
+                    "concept": "b0863993-4b65-4d34-82a8-ed8bc1bd2598",
+                    "label": "Abstinence"
+                  },
+                  {
+                    "concept": "f8e6bcff-4557-408a-8797-dabb64ccfd57",
+                    "label": "Other"
+                  }
+                ]
+              },
+              "hide": {
+                "hideWhenExpression": "sex === 'M' || !(age >= 9 && age <= 45)"
+              }
+            },
+            {
+              "label": "Other Family Planning Specify",
+              "type": "obs",
+              "id": "otherFamilyPlanning",
+              "required": false,
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "62340009-748b-4b4c-87fa-8d1b2ca96ea0"
+              },
+              "hide": {
+                "hideWhenExpression": "familyPlanning !== 'f8e6bcff-4557-408a-8797-dabb64ccfd57'"
+              }
+            }
+          ],
+          "hide": {
+            "hideWhenExpression": "sex === 'M' || !(age >= 9 && age <= 45)"
+          }
+        },
+        {
+          "label": "Obstetrics and Gynaecology",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Obstetrics and Gynaecology",
+              "type": "obs",
+              "id": "obsAndGynaecology",
+              "required": false,
+              "questionOptions": {
+                "rendering": "textarea",
+                "rows": 5,
+                "concept": "d85b298f-2819-49b1-b716-1c0cee69212c"
+              },
+              "hide": {
+                "hideWhenExpression": "sex === 'M' || !(age >= 9)"
+              }
+            }
+          ],
+          "hide": {
+            "hideWhenExpression": "sex === 'M' || !(age >= 9)"
+          }
+        },
+        {
           "label": "General Examination",
           "isExpanded": "true",
           "questions": [
@@ -123,16 +217,16 @@
               "type": "obs",
               "required": false,
               "questionOptions": {
-                "rendering":"radio",
-                "concept": "5f9375cd-3138-4f41-96a1-ffab4910ce98",
+                "rendering": "radio",
+                "concept": "5d72820a-de18-4de3-bd88-803abc61a0ba",
                 "answers": [
                   {
                     "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                     "label": "Normal"
                   },
                   {
-                      "concept": "1116AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                      "label": "Abnormal"
+                    "concept": "1116AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Abnormal"
                   }
                 ]
               }
@@ -155,7 +249,7 @@
                   "questionOptions": {
                     "rendering": "textarea",
                     "rows": 5,
-                    "concept": "5d72820a-de18-4de3-bd88-803abc61a0ba"
+                    "concept": "daf8e0c0-ef5b-4568-8564-6a57358e1756"
                   }
                 }
               ]
@@ -172,16 +266,16 @@
               "type": "obs",
               "required": false,
               "questionOptions": {
-                "rendering":"radio",
-                "concept": "1882a72e-388e-40a7-8fcf-a6c46528fe8b",
+                "rendering": "radio",
+                "concept": "c0462e9b-d91b-4e14-a249-4120362ad0da",
                 "answers": [
                   {
                     "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                     "label": "Normal"
                   },
                   {
-                      "concept": "1116AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                      "label": "Abnormal"
+                    "concept": "1116AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Abnormal"
                   }
                 ]
               }
@@ -204,7 +298,7 @@
                   "questionOptions": {
                     "rendering": "textarea",
                     "rows": 5,
-                    "concept": "c0462e9b-d91b-4e14-a249-4120362ad0da"
+                    "concept": "d5771e6e-0f9c-4d3f-b9ab-56e545bc3e10"
                   }
                 }
               ]
@@ -223,7 +317,7 @@
               "questionOptions": {
                 "rendering": "textarea",
                 "rows": 5,
-                "concept": "0e227ebc-186d-48e1-bc2f-6c8e89ca0eaa"
+                "concept": "6508b46e-1fef-455b-aedc-b8fddc7309af"
               }
             }
           ]
@@ -272,7 +366,7 @@
               "type": "obs",
               "required": false,
               "questionOptions": {
-                "rendering":"radio",
+                "rendering": "radio",
                 "concept": "338d28f6-0095-4898-a11f-84bb646e612b",
                 "answers": [
                   {
@@ -280,27 +374,14 @@
                     "label": "Yes"
                   },
                   {
-                      "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                      "label": "No"
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
                   }
                 ]
               },
               "alert": {
                 "alertWhenExpression": "tca === '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'",
                 "message": "Please place an appointment for the Patient"
-              }
-            },
-            {
-              "label": "Please place an appointment for the Patient",
-              "required": true,
-              "id": "appointmentWorkspaceLauncher",
-              "questionOptions": {
-                "rendering": "workspace-launcher",
-                "buttonLabel": "Add appointments",
-                "workspaceName": "appointments-form-workspace"
-              },
-              "hide":{
-                "hideWhenExpression": "tca !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
               }
             },
             {
@@ -334,7 +415,7 @@
       "label": "Other details",
       "sections": [
         {
-          "label": "Other details",
+          "label": "Other details (< 5)",
           "isExpanded": "true",
           "questions": [
             {
@@ -369,7 +450,7 @@
                 ]
               },
               "hide": {
-                "hideWhenExpression": " age > 5"
+                "hideWhenExpression": "age > 5"
               }
             },
             {
@@ -636,7 +717,7 @@
           }
         },
         {
-          "label": "Other details",
+          "label": "Other details ()",
           "isExpanded": "true",
           "questions": [
             {
@@ -795,8 +876,8 @@
                     "label": "Yes"
                   },
                   {
-                      "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                      "label": "No"
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "No"
                   }
                 ]
               }

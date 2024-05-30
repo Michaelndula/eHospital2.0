@@ -1,66 +1,10 @@
 {
-  "name": "C. Dental",
+  "name": "3. Dental",
   "version": "1.0.0",
   "published": true,
   "retired": false,
   "encounter": "Dental",
   "pages": [
-    {
-      "label": "Visit details",
-      "sections": [
-        {
-          "label": "Visit details",
-          "isExpanded": "true",
-          "questions": [
-            {
-              "label": "Date:",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "date",
-                "concept":"21eced40-aa0d-47a7-bb9a-a5a3fc51a184"
-              },
-              "id": "encDate"
-            },
-            {
-              "label": "Provider:",
-              "type": "encounterProvider",
-              "questionOptions": {
-                "rendering": "ui-select-extended"
-              },
-              "id": "encProvider "
-            },
-            {
-              "label": "Health Facility name:",
-              "type": "encounterLocation",
-              "questionOptions": {
-                "rendering": "ui-select-extended"
-              },
-              "id": "encLocation"
-            },
-            {
-              "label": "Patient Type:",
-              "type": "obs",
-              "required": true,
-              "id": "patientDetails",
-              "questionOptions": {
-                "rendering": "radio",
-                "concept": "0e267726-c004-4ffd-956d-1c8401cf08b5",
-                "answers": [
-                  {
-                    "concept": "af52b90b-ead9-4cbb-a99a-137e154db272",
-                    "label": "Adult"
-                  },
-                  {
-                    "concept": "aff3fd37-3723-4acf-9e3d-91b650bbfec2",
-                    "label": "Child"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    },
     {
       "label": "Dental Details",
       "sections": [
@@ -111,6 +55,7 @@
             {
               "label": "Specify Other Dental Procedure",
               "required": false,
+              "type": "obs",
               "id": "dentalProcedureOtherSpecify",
               "questionOptions": {
                 "rendering": "text",
@@ -125,6 +70,7 @@
             {
               "label": "Dental Procedure Notes",
               "required": false,
+              "type": "obs",
               "id": "fillingReport",
               "questionOptions": {
                 "rendering": "textarea",
@@ -135,6 +81,7 @@
             {
               "label": "Findings",
               "required": false,
+              "type": "obs",
               "id": "findings",
               "questionOptions": {
                 "rendering": "textarea",

@@ -10,8 +10,8 @@ Referred From other facility;
 Referred from Within;
 N/A"
 140425BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB,,Name of facility Referred from,Name of facility Referred from,,,,,Question,Text,
-5085AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,Systolic Blood Pressure,Systolic Blood Pressure,,,,,Finding,numeric,
-5086AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,Diastolic Blood Pressure,Diastolic Blood Pressure,,,,,Finding,numeric,
+5085AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,Systolic Blood Pressure,Systolic Blood Pressure,,,,,Finding,Numeric,
+5086AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,Diastolic Blood Pressure,Diastolic Blood Pressure,,,,,Finding,Numeric,
 108485BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB,,Visual acuity right eye,"Visual acuity, right eye",,,,,Misc,Text,
 108483BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB,,Visual acuity left eye,"Visual acuity, left eye",,,,,Misc,Text,
 76ba101e-9b7c-40c4-aad0-c659aaa17268,,Visual Acuity **RE / LE**,Visual Acuity **RE / LE**,"Record the result from the 

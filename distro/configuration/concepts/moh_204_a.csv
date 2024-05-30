@@ -37,7 +37,7 @@ Vomiting everything;
 Convulsions;
 Unconscious;
 Currently convulsing"
-1817BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB,,DURATION OF ILLNESS,DURATION OF ILLNESS,,,,,Question,numeric,
+1817BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB,,DURATION OF ILLNESS,DURATION OF ILLNESS,,,,,Question,Numeric,
 5902fc83-0742-4eb2-bd02-823f71d0e641,,Presenting with symptoms but NOT tested,Presenting with symptoms but NOT tested,,,,,Misc,N/A,
 1923BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB,,RAPID TEST FOR MALARIA,RAPID TEST FOR MALARIA,,,,,Misc,N/A,
 307a4edd-6a8b-4a49-842e-34117cbea114,,Microscopy Tested (-ve) ,Microscopy Tested (-ve),,,,,Misc,N/A,
@@ -71,7 +71,7 @@ Amox DT;
 OXYGEN;
 ALBENDAZOLE;
 INTRAVENOUS FLUID ADMINISTRATION"
-109537BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB,,Quantity of medication prescribed per dose,Quantity of medication prescribed per dose,,,,,Question,numeric,
+109537BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB,,Quantity of medication prescribed per dose,Quantity of medication prescribed per dose,,,,,Question,Numeric,
 143591BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB,,Continuous positive airway pressure ventilation,,,,,,Procedure,N/A,
 04088077-2c91-4fa8-9406-7005d884d151,,all other treatments,,,,,,Finding,Text,
 1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,Yes,Yes,,,,,Misc,N/A,

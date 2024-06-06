@@ -109,17 +109,30 @@
                     }
                 },
                 {
-                    "label": "referral form/image",
+                    "label": "referral form/image provided?",
                     "type": "obs",
                     "required": true,
-                    "id": "referralImageForm",
+                    "id": "referralImageFormProvided",
                     "questionOptions": {
-                        "rendering": "file",
+                        "rendering": "radio",
                         "concept": "a7a1f899-135b-49b3-a1fe-d9ef0b50c40b",
-                        "answers": []
+                        "answers": [
+                            {
+                                "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                                "label": "Yes"
+                            },
+                            {
+                                "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                                "label": "No"
+                            }
+                        ]
                     },
                     "hide":{
                         "hideWhenExpression":"referral !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
+                    },
+                    "alert": {
+                      "alertWhenExpression": "referralImageFormProvided === '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'",
+                      "message": "Please upload the image/form using the attachments module"
                     }
                 }
             ]

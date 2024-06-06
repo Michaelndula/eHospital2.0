@@ -35,7 +35,7 @@
     "@sjthc/esm-patient-list-app": "1.1.1",
     "@sjthc/esm-reports-app": "1.0.2",
     "@sjthc/esm-billing-app": "1.0.2",
-    "@sjthc/esm-service-queues-app": "1.0.2"
+    "@sjthc/esm-service-queues-app": "1.0.8"
   },
   "spaPath": "$SPA_PATH",
   "apiUrl": "$API_URL",

@@ -8,7 +8,7 @@ d1e2f14d-cc8c-4fb2-ba44-04c2f223d294,,,Referral,Referral,,,,,Question,Coded,Yes;
 eb3adf82-dea1-4a97-803c-852f61dec950,,,In From,In From,,,,,Question,Text,,
 e133db61-3fb6-44e1-988b-98d8eec0148e,,,Out to,Out to,,,,,Question,Text,,
 cebe3be9-7d72-4478-a7e2-015e4ed87f46,,,Reason for referral,Reason for referral,,,,,Question,Text,,
-a7a1f899-135b-49b3-a1fe-d9ef0b50c40b,,,referral form/image,referral form/image,,,,,Question,Document,,
+a7a1f899-135b-49b3-a1fe-d9ef0b50c40b,,,referral form/image provided?,referral form/image provided?,,,,,Question,Coded,Yes; No,
 684e52f3-dd08-465b-ac6c-5aca23cb19d9,,,Relevant History,Relevant History,,,,,Question,Text,,
 aa2b62ca-f798-40c8-ba88-bcff78be1fbe,,,Obstetric Ultrasound ,Obstetric Ultrasound ,,,,,Misc,N/A,,
 b2f6cbd3-c9f1-4796-9b17-71b79d3083b9,,,Pelvic Ultrasound,Pelvic Ultrasound   ,,,,,Misc,N/A,,

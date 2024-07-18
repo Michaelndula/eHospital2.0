@@ -15,6 +15,7 @@
       }
   },
   "@openmrs/esm-patient-chart-app": {
+    "showUpcomingAppointments": true,
       "logo": {
           "src": "/openmrs/spa/primary-navigation.jpg"
       },
@@ -92,7 +93,7 @@
               "id": "studentAdmissionNumber",
               "type": "person attribute",
               "uuid": "f5e5a725-fc9f-47d2-8d43-4af8bcda9cfc",
-              "label": "Students Admission Number"
+              "label": "Student's Nemis Number"
             },
             {
               "id": "foundationName",
@@ -145,43 +146,35 @@
       }
   },
   "@sjthc/esm-service-queues-app": {
-    "concepts": {
-      "priorityConceptSetUuid": "2260a79e-f391-40f7-9eba-2e0e67028392",
-      "defaultPriorityConceptUuid": "80cd8f8c-5d82-4cdc-b96e-a6addeb94b7f",
-      "emergencyPriorityConceptUuid": "037446f4-adfc-40b3-928c-a39a4826b1bf",
-      "serviceConceptSetUuid": "d7bd4cc0-90b1-4f22-90f2-ab7fde936727",
-      "statusConceptSetUuid": "9484732b-bcaf-429e-86cb-d6cf3da34211",
-      "defaultStatusConceptUuid": "167407AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-      "defaultTransitionStatus": "167408AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-      "historicalObsConceptUuid": ["161643AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"]
-    },
     "priorityConfigs": [
       {
-        "conceptUuid": "037446f4-adfc-40b3-928c-a39a4826b1bf",
+        "conceptUuid": "04f6f7e0-e3cb-4e13-a133-4479f759574e",
         "tagClassName": "tag",
         "tagType": "red"
-      },
-      {
-        "conceptUuid": "80cd8f8c-5d82-4cdc-b96e-a6addeb94b7f",
-        "tagClassName": "tag",
-        "tagType": "green"
-      },
-      {
-        "conceptUuid": "ef5718cd-d6d5-4fcf-bb82-cc4afaa90603",
-        "tagClassName": "tag",
-        "tagType": "gray"
       }
     ],
-    "visitQueueNumberAttributeUuid": "c61ce16f-272a-41e7-9924-4c555d0932c5",
-    "showQueueTableTab": false,
-    "defaultIdentifierTypes": [
-      "05ee9cf4-7242-4a17-b4d4-00f707265c8a",
-      "f85081e2-b4be-4e48-b3a4-7994b69bb101"
+    "statusConfigs": [
+      {
+        "conceptUuid": "51ae5e4d-b72b-4912-bf31-a17efb690aeb",
+        "iconComponent": "InProgress"
+      },
+      {
+        "conceptUuid": "ca7494ae-437f-4fd0-8aae-b88b9a2ba47d",
+        "iconComponent": "Group"
+      },
+      {
+        "conceptUuid": "b559fb77-4e1e-4285-b9b7-1d03e0ba983f",
+        "iconComponent": "Group"
+      }
     ],
-    "customPatientChartUrl": "${openmrsSpaBase}/patient/${patientUuid}/chart",
-    "Display conditions": {
-      "privileges": ["o3: View Service Queues"]
-    }
+    "concepts": {
+      "defaultPriorityConceptUuid": "f4620bfa-3625-4883-bd3f-84c2cce14470",
+      "emergencyPriorityConceptUuid": "04f6f7e0-e3cb-4e13-a133-4479f759574e",
+      "defaultStatusConceptUuid": "51ae5e4d-b72b-4912-bf31-a17efb690aeb",
+      "defaultTransitionStatus": "ca7494ae-437f-4fd0-8aae-b88b9a2ba47d"
+    },
+    "visitQueueNumberAttributeUuid": "",
+    "defaultFacilityUrl": ""
   },
   "@openmrs/esm-appointments-app": {
     "concepts": {
@@ -221,8 +214,8 @@
   "@openmrs/esm-patient-vitals-app": {
     "vitals": {
       "useFormEngine": true,
-      "formName": "Record Triage Details",
-      "formUuid": "6205a52d-eb0a-3b86-84b1-812858d272fb",
+      "formName": "1. Triage",
+      "formUuid": "1165eb3a-73f4-3cbe-ae87-a30a05d89b88",
       "encounterTypeUuid": "3ccde6e2-9730-46a3-8f69-8a5e0cc48128"
     },
     "concepts": {

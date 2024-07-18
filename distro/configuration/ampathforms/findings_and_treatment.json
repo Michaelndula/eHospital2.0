@@ -233,27 +233,15 @@
               }
             },
             {
-              "label": "Add Comment",
-              "type": "obsGroup",
-              "required": true,
-              "id": "generalExaminationAddComment",
+              "label": "General Examination Comment",
+              "id": "generalExaminationComment",
+              "type": "obs",
+              "required": false,
               "questionOptions": {
-                "rendering": "repeating",
-                "concept": "b2eb5496-e708-44ad-bce4-8a976941ca44"
-              },
-              "questions": [
-                {
-                  "label": "General Examination Comment",
-                  "id": "generalExaminationComment",
-                  "type": "obs",
-                  "required": false,
-                  "questionOptions": {
-                    "rendering": "textarea",
-                    "rows": 5,
-                    "concept": "daf8e0c0-ef5b-4568-8564-6a57358e1756"
-                  }
-                }
-              ]
+                "rendering": "textarea",
+                "rows": 5,
+                "concept": "daf8e0c0-ef5b-4568-8564-6a57358e1756"
+              }
             }
           ]
         },
@@ -282,27 +270,15 @@
               }
             },
             {
-              "label": "Add Comment",
-              "type": "obsGroup",
-              "required": true,
-              "id": "systemicExaminationAddComment",
+              "label": "Systemic Examination Comment",
+              "id": "systemicExaminationComment",
+              "type": "obs",
+              "required": false,
               "questionOptions": {
-                "rendering": "repeating",
-                "concept": "98554c7b-cdec-41cb-b1f6-10972a6139b2"
-              },
-              "questions": [
-                {
-                  "label": "Systemic Examination Comment",
-                  "id": "systemicExaminationComment",
-                  "type": "obs",
-                  "required": false,
-                  "questionOptions": {
-                    "rendering": "textarea",
-                    "rows": 5,
-                    "concept": "d5771e6e-0f9c-4d3f-b9ab-56e545bc3e10"
-                  }
-                }
-              ]
+                "rendering": "textarea",
+                "rows": 5,
+                "concept": "d5771e6e-0f9c-4d3f-b9ab-56e545bc3e10"
+              }
             }
           ]
         },
@@ -399,27 +375,15 @@
               }
             },
             {
-              "label": "Add Comment",
-              "type": "obsGroup",
-              "required": true,
-              "id": "tcaAddComment",
+              "label": "TCA",
+              "id": "tcaComment",
+              "type": "obs",
+              "required": false,
               "questionOptions": {
-                "rendering": "repeating",
-                "concept": "7619cf81-313d-4fcd-bdb1-57f94c376d58"
-              },
-              "questions": [
-                {
-                  "label": "TCA",
-                  "id": "tcaComment",
-                  "type": "obs",
-                  "required": false,
-                  "questionOptions": {
-                    "rendering": "textarea",
-                    "rows": 5,
-                    "concept": "d08b33dd-d807-460a-a91e-049c30b7a0aa"
-                  }
-                }
-              ]
+                "rendering": "textarea",
+                "rows": 5,
+                "concept": "d08b33dd-d807-460a-a91e-049c30b7a0aa"
+              }
             }
           ]
         }

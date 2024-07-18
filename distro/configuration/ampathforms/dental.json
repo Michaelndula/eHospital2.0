@@ -116,11 +116,13 @@
             {
               "label": "Medication",
               "required": false,
+              "type": "obs",
               "id": "ordersWorkspaceLauncher",
               "questionOptions": {
                 "rendering": "workspace-launcher",
                 "buttonLabel": "Add Medication",
-                "workspaceName": "orders-form-workspace"
+                "workspaceName": "add-lab-order",
+                "concept": "a-system-defined-concept-uuid"
               }
             }
           ]

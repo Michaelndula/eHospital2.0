@@ -30,13 +30,13 @@
     "@openmrs/esm-cohort-builder-app": "next",
     "@openmrs/esm-stock-management-app": "next",
     "@sjthc/esm-patient-registration-app": "latest",
-    "@sjthc/esm-patient-list-app": "latest",
+    "@sjthc/esm-patient-list-app": "1.1.8",
     "@sjthc/esm-reports-app": "1.0.2",
-    "@sjthc/esm-billing-app": "latest",
-    "@sjthc/esm-service-queues-app": "latest",
+    "@sjthc/esm-billing-app": "next",
+    "@sjthc/esm-service-queues-app": "1.1.0",
     "@kenyaemr/esm-procedure-app": "next",
-    "@sjthc/esm-admin-nav-app": "latest",
-    "@sjthc/esm-import-export-app": "latest"
+    "@sjthc/esm-admin-nav-app": "1.0.2",
+    "@sjthc/esm-import-export-app": "1.0.3"
   },
   "excludedFrontendModules": []
 }

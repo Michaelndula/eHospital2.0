@@ -6,4 +6,4 @@ a62688fc-4a27-4285-81d9-1b7993188d38,,Unique OPD No,Unique OPD No.,java.lang.Str
 b2c38640-2603-4629-aebd-3b54f33f1e3a,,Contact Number,The contact number for the person,java.lang.String,,,
 b8d0b331-1d2d-4a9a-b741-1816f498bdb6,,Email Address,The Email Address of the person,^[\w-\.]+@([\w-]+\.)+[\w-]{4}$,,,
 f9c39d6c-9893-4474-8070-ef592f2be875,,Foundation,the Foundation of the students,java.lang.String,,yes,
-f5e5a725-fc9f-47d2-8d43-4af8bcda9cfc,,Student Admission Number,the Students admission number,java.lang.String,,yes,
+f5e5a725-fc9f-47d2-8d43-4af8bcda9cfc,,Student's Nemis Number,the Student's admission number,java.lang.String,,yes,

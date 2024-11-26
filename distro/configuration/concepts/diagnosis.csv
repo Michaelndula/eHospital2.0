@@ -12,7 +12,6 @@ PIH: 58;
 org.openmrs.module.mdrtb: TUBERCULOSIS;
 AMPATH: 58;
 SNOMED CT: 56717001",TUBERCULOSIS,,,,,,Diagnosis,Coded,,,,
-f7b62c18-afa4-4428-8b63-08391cf210f2,,,DYSENTERY (BLOODY DIARRHEA),,,,,,Misc,N/A,,,,
 122604AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"IMO ProblemIT: 79816;
 SNOMED CT: 63650001;
 PIH: 198;
@@ -151,17 +150,10 @@ d97d9d7d-03c5-43da-a115-5e8a4a7adaca,,,Diarrhoea with severe dehydration,,,,,,Mi
 f7b62c18-afa4-4428-8b63-08391cf210f2,,,Dysentery (Bloody diarrhoea),,,,,,Misc,N/A,,,,
 1768581a-3a0a-4625-8ad6-5bf61f2df635,,,Gastroenteritis,,,,,,Misc,N/A,,,,
 4e6adce2-efd5-4b3b-bb54-ba69a78e4861,,,Severe pneumonia,,,,,,Misc,N/A,,,,
-d98f8b04-920c-4908-a722-93a34efa3684,,,Upper Respiratory Tract Infections,,,,,,Misc,N/A,,,,
 6f331880-20b1-4c29-8707-d6907ea3f523,,,Lower Respiratory Tract Infections,,,,,,Misc,N/A,,,,
 762c26e6-9db3-404a-8344-e69b95360366,,,Presumed Tuberculosis,,,,,,Misc,N/A,,,,
-ab01a44e-5a44-4d36-a8e4-8794d8026222,,,Suspected/Tested Malaria,,,,,,Misc,N/A,,,,
-110d072b-fa9c-4898-aa0e-63846c79d1f1,,,Confirmed Malaria (only positive cases),,,,,,Misc,N/A,,,,
-a2e4abc9-d4a9-419b-af6e-a68785a8c573,,,Malnutrition,,,,,,Misc,N/A,,,,
-72444092-9956-47da-8897-b76e4718c22f,,,Meningococcal Meningitis,,,,,,Misc,N/A,,,,
-5f373b9c-93fe-4371-8fa8-39c05aed4323,,,Other  Menigitis,,,,,,Misc,N/A,,,,
 4893d13a-b25f-430d-a465-a35170846287,,,Neonatal Sepsis,,,,,,Misc,N/A,,,,
 eb4725ba-27b0-4cac-bc90-08d484339b1c,,,Neonatal Tetanus,,,,,,Misc,N/A,,,,
-264d3b5e-0cda-47cf-bd1a-9c8f71313cff,,,Poliomyelitis (AFP),,,,,,Misc,N/A,,,,
 598d46d5-48d0-4c00-8844-4e875b03a08b,,,Tonsilities,,,,,,Misc,N/A,,,,
 94ee72e9-0994-400a-bc08-11c588c95a08,,,Down’s syndrome,,,,,,Misc,N/A,,,,
 d936bc48-6f7f-4802-b4a6-aa9c0108cd24,,,Other Convulsive Disorders,,,,,,Misc,N/A,,,,
@@ -169,12 +161,10 @@ d936bc48-6f7f-4802-b4a6-aa9c0108cd24,,,Other Convulsive Disorders,,,,,,Misc,N/A,
 4008f0a7-8f1b-4861-83c0-fcf69138fc25,,,Rickets,,,,,,Misc,N/A,,,,
 b4e20a88-3a3d-47c8-9820-8bef2b76e1c7,,,Cerebral Palsy,,,,,,Misc,N/A,,,,
 e449a59d-e666-4b5b-9f66-a5cf870358e8,,,Autism,,,,,,Misc,N/A,,,,
-81a94f45-a08a-439e-9daa-d48b4185dcdf,,,Suspected Anthrax,,,,,,Misc,N/A,,,,
 d3d9bae4-0b96-4347-8ed6-b3bcd8f84363,,,Suspected Childhood Cancers,,,,,,Misc,N/A,,,,
 0b3caef5-ead8-4a32-a3d9-45b7933b6165,,,Hypoxaemia (Spo2<90%),,,,,,Misc,N/A,,,,
 759bf916-5549-4fe1-a588-a399ba04dfd5,,,Diagnosis/Impressions,,,,,,Question,Coded,"Diarrhoea;
 TUBERCULOSIS;
-DYSENTERY (BLOODY DIARRHEA);
 CHOLERA;
 MENINGOCOCCAL MENINGITIS;
 OTHER MENINGITIS;
@@ -194,7 +184,7 @@ URINARY TRACT INFECTION;
 Bilharzia (Schistosomiasis);
 INTESTINAL WORMS;
 MALNUTRITION;
-ANEAMIA;
+ANAEMIA;
 EYE INFECTIONS;
 EAR INFECTION/CONDITIONS;
 UPPER RESPIRATORY TRACT INFECTIONS;
@@ -224,12 +214,12 @@ EPILEPSY;
 BRUCELLOSIS;
 CARDIOVASCULAR CONDITIONS;
 CENTRAL NERVOUS SYSTEM CONDITIONS;
-OVRERWEIGHT (BMI > 25);
+OVERWEIGHT (BMI > 25);
 MUSCULAR SKELETAL CONDITIONS;
 FISTULA (BIRTH RELATED);
 Suspected Neoplams/Cancers;
 PHYSICAL DISABILITY;
-TRYPONOMIASIS;
+TRYPANOSOMIASIS;
 Rift valley fever;
 YELLOW FEVER;
 VIRAL HAEMORRHAGIC FEVER;
@@ -241,71 +231,22 @@ Suspected Anthrax;
 Diarrhoea with no dehydration;
 Diarrhoea with some dehydration;
 Diarrhoea with severe dehydration;
-Cholera;
 Dysentery (Bloody diarrhoea);
 Gastroenteritis;
-Pneumonia;
 Severe pneumonia;
-Upper Respiratory Tract Infections;
 Lower Respiratory Tract Infections;
-Asthma;
 Presumed Tuberculosis;
-Suspected/Tested Malaria;
-Confirmed Malaria (only positive cases);
-Ear Infections/ Conditions;
-Malnutrition;
-Anaemia;
-Meningococcal Meningitis;
-Other  Menigitis;
 Neonatal Sepsis;
 Neonatal Tetanus;
-Poliomyelitis (AFP);
-Chicken Pox;
-Measles;
-Hepatitis;
-Amoebiasis;
-Mumps;
-Typhoid fever;
-Bilharzia (Schistosomiasis);
-Interstinal worms;
-Eye Infections;
 Tonsilities;
-Urinary Tract Infection;
-Mental Disorders;
-Dental Disorders;
-Jiggers Infestation;
-Diseases of the skin;
 Down’s syndrome;
-Poisoning;
-Road Traffic Injuries;
-Deaths due to Road Trafic injuries;
-Violence related  injuries;
-Other Injuries;
-Sexual Violence;
-Burns;
-Snake Bites;
-Dog bites;
-Other Bites;
-Diabetes;
-Epilepsy;
 Other Convulsive Disorders;
 Rheumatic Fever;
-Brucellosis;
 Rickets;
 Cerebral Palsy;
 Autism;
-Tryponosomiasis;
-Yellow Fever;
-Viral Haemorrhagic Fever;
-Rift valley fever;
-Chikungunya;
-Dengue fever;
-Kalaar (Leishmaniaisis);
-Cutaneous leishmaniasis;
-Suspected Anthrax;
 Suspected Childhood Cancers;
-Hypoxaemia (Spo2<90%);
-Other",,,
+Hypoxaemia (Spo2<90%)",,,
 410d7684-2045-4eff-9af3-1fb57a406123,,,Other Diseases,,,,,,Question,Text,,,,
 b0fef4a0-a77b-4cce-8a1b-d60d2bcd6e8e,,,OTHER MENINGITIS Specify,,,,,,Question,Text,,,,
 4dbab2e3-d47d-49dc-8dbe-e9a83567f230,,,Other Convulsive Disorders Specify,,,,,,Question,Text,,,,

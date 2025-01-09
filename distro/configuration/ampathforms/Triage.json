@@ -76,7 +76,7 @@
               "validators": [
                 {
                   "type": "js_expression",
-                  "failsWhenExpression": "temperature < 32 || temperature > 40",
+                  "failsWhenExpression": "temperature >= 42 || temperature < 30",
                   "message": "Temperature is out of range (Normal range 35-37)"
                 }
               ]

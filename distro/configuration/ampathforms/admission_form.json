@@ -1,5 +1,5 @@
 {
-  "name": "Admission form IPD",
+  "name": "Ward Admission",
   "pages": [
     {
       "label": "Ward Request",
@@ -56,8 +56,8 @@
     }
   ],
   "processor": "EncounterFormProcessor",
-  "encounterType": "Admission form IPD",
-  "encounter": "Admission form IPD",
+  "encounter": "Transfer Request",
+  "encounterType": "Transfer Request",
   "referencedForms": [],
   "uuid": "xxxx",
   "description": "Create an admission request to an inpatient ward",

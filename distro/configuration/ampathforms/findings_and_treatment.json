@@ -937,7 +937,7 @@
                 "concept": "4dbab2e3-d47d-49dc-8dbe-e9a83567f230"
               },
               "hide": {
-                "hideWhenExpression": "isEmpty(impressionsDiagnosisChildren) || !arrayContains(impressionsDiagnosisChildren, '988b26cc-369e-42bf-9162-4e5380a45342')"
+                "hideWhenExpression": "isEmpty(impressionsDiagnosisChildren) || !arrayContains(impressionsDiagnosisChildren, 'd936bc48-6f7f-4802-b4a6-aa9c0108cd24')"
               }
             },
             {
@@ -976,7 +976,7 @@
                 "concept": "7e57cd52-4bd0-45ed-9dd1-582dfe7cad60"
               },
               "hide": {
-                "hideWhenExpression": "isEmpty(impressionsDiagnosisChildren) || !arrayContains(impressionsDiagnosisChildren, 'cafabbfc-4776-4ff6-8c6d-4aee5c200ef4')"
+                "hideWhenExpression": "isEmpty(impressionsDiagnosisChildren) || !arrayContains(impressionsDiagnosisChildren, '1534e0f1-eece-470f-bf5a-ee03a865e7a6')"
               }
             },
             {
@@ -989,7 +989,7 @@
                 "concept": "7e57cd52-4bd0-45ed-9dd1-582dfe7cad60"
               },
               "hide": {
-                "hideWhenExpression": "isEmpty(impressionsDiagnosisAdults) || !arrayContains(impressionsDiagnosisAdults, 'cafabbfc-4776-4ff6-8c6d-4aee5c200ef4')"
+                "hideWhenExpression": "isEmpty(impressionsDiagnosisAdults) || !arrayContains(impressionsDiagnosisAdults, '1534e0f1-eece-470f-bf5a-ee03a865e7a6')"
               }
             },
             {

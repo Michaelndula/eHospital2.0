@@ -307,7 +307,7 @@
               "label": "Impressions/Diagnosis",
               "id": "impressionsDiagnosisChildren",
               "type": "obs",
-              "required": false,
+              "required": true,
               "questionOptions": {
                 "rendering": "multiCheckbox",
                 "concept": "759bf916-5549-4fe1-a588-a399ba04dfd5",
@@ -595,7 +595,7 @@
               "label": "Impressions/Diagnosis",
               "id": "impressionsDiagnosisAdults",
               "type": "obs",
-              "required": false,
+              "required": true,
               "questionOptions": {
                 "rendering": "multiCheckbox",
                 "concept": "759bf916-5549-4fe1-a588-a399ba04dfd5",

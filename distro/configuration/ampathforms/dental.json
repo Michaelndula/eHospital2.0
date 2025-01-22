@@ -233,7 +233,7 @@
                     "label": "Urinary Tract Infection"
                   },
                   {
-                    "concept": "c9f5ed29-eac8-4c5e-8296-c43f699a2b07",
+                    "concept": "77AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                     "label": "Mental Disorders"
                   },
                   {
@@ -253,11 +253,11 @@
                     "label": "Down’s syndrome"
                   },
                   {
-                    "concept": "71293391-dc75-4c90-a4bc-5da60442b60c",
+                    "concept": "47a1132d-999b-42f3-8114-99a1e650bb2e",
                     "label": "Poisoning"
                   },
                   {
-                    "concept": "da454f8c-ccbf-42f6-b046-38f6036bc347",
+                    "concept": "eabdbb3c-f9da-469a-8405-c97061df3bed",
                     "label": "Road Traffic Injuries"
                   },
                   {
@@ -269,19 +269,19 @@
                     "label": "Violence related  injuries"
                   },
                   {
-                    "concept": "cafabbfc-4776-4ff6-8c6d-4aee5c200ef4",
+                    "concept": "1534e0f1-eece-470f-bf5a-ee03a865e7a6",
                     "label": "Other Injuries"
                   },
                   {
-                    "concept": "0b1b1a73-62c7-4a98-847d-9917ebbdfcef",
+                    "concept": "59d3ee16-4941-42b2-b05c-a9cab5aeeb53",
                     "label": "Sexual Violence"
                   },
                   {
-                    "concept": "9ffa7692-97a0-44a7-8abd-da07de5bdf22",
+                    "concept": "6cc751f9-46eb-4565-891d-5f6e69be68d8",
                     "label": "Burns"
                   },
                   {
-                    "concept": "dbbab20b-7071-4ae0-b2fb-622b2aa95813",
+                    "concept": "dbbab20b-7071-4ae0-b2fb-622b2aa95813c",
                     "label": "Snake Bites"
                   },
                   {
@@ -517,7 +517,7 @@
                     "label": "Hypertension"
                   },
                   {
-                    "concept": "c9f5ed29-eac8-4c5e-8296-c43f699a2b07",
+                    "concept": "77AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                     "label": "Mental Disorders"
                   },
                   {
@@ -642,7 +642,7 @@
                   },
                   {
                     "concept": "526bda40-2fce-45fd-8ba9-c1921a25d5f6",
-                    "label": "Kalaar (Leishmaniasis)"
+                    "label": "Kalazar (Leishmaniasis)"
                   },
                   {
                     "concept": "9b757626-dd2e-488d-84a0-ca3f4d1a8e51",

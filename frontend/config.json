@@ -2,10 +2,7 @@
   "@openmrs/esm-styleguide": {
       "Brand color #1": "#235787",
       "Brand color #2": "#235787",
-      "Brand color #3": "#FC8EAC"
-  },
-  "@kenyaemr/esm-bed-management-app": {
-    "admissionLocationTagUuid": "f5b9737b-14d5-402b-8475-dd558808e172"
+      "Brand color #3": "#235787"
   },
   "@ehospital/esm-billing-app": {
     "extensionSlots": {
@@ -40,14 +37,21 @@
       }
     ]
   },
-  "@openmrs/esm-login-app": {
+  "@openmrs/esm-ward-app": {
+    "extensionSlots": {
+      "action-menu-ward-patient-items-slot": {
+        "add": ["order-basket-action-menu"]
+      }
+    }
+  },
+  "@ehospital/esm-login-app": {
       "logo": {
-          "src": "/openmrs/spa/login-icon.png"
+          "src": "/openmrs/spa/ehospitallogo.png"
       }
   },
   "@openmrs/esm-primary-navigation-app": {
       "logo": {
-          "src": "/openmrs/spa/primary-navigation.jpg"
+          "src": "/openmrs/spa/ehospitallogo.jpg"
         },
     "extensionSlots": {
       "app-menu-slot": {
@@ -60,9 +64,10 @@
     }
   },
   "@openmrs/esm-patient-chart-app": {
+    "restrictByVisitLocationTag": true,
     "showUpcomingAppointments": true,
       "logo": {
-          "src": "/openmrs/spa/primary-navigation.jpg"
+          "src": "/openmrs/spa/ehospitallogo.jpg"
       },
       "extensionSlots": {
         "patient-chart-dashboard-slot": {

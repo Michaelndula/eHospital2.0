@@ -19,14 +19,15 @@ RUN npx --legacy-peer-deps openmrs@${APP_SHELL_VERSION:-next} build --build-conf
 
 # Copy the required files and echo
 RUN echo "Copying required files ..." && \
-    cp ./assets/login-icon.png ./spa && \
+    cp ./assets/ehospitallogo.jpg ./spa && \
+    cp ./assets/ehospitallogo.png ./spa && \
     cp ./assets/primary-navigation.jpg ./spa && \
     cp spa-build-config.json ./spa
 
 RUN if [ ! -f ./spa/index.html ]; then echo 'Build failed. Please check the logs above for details. This may have happened because of an update to a library that OpenMRS depends on.'; exit 1; fi
 
 # Modify page title
-RUN sed -i 's/<title>.*<\/title>/<title>SJHC<\/title>/' ./spa/index.html
+RUN sed -i 's/<title>.*<\/title>/<title>eHospital<\/title>/' ./spa/index.html
 
 #--------------------------------------------
 # Runtime Stage - Published Image

@@ -2,7 +2,6 @@
   "frontendModules": {
     "@openmrs/esm-devtools-app": "next",
     "@openmrs/esm-implementer-tools-app": "next",
-    "@openmrs/esm-login-app": "next",
     "@openmrs/esm-primary-navigation-app": "next",
     "@openmrs/esm-home-app": "next",
     "@openmrs/esm-form-engine-app": "next",
@@ -41,7 +40,9 @@
     "@ehospital/esm-procedure-app": "next",
     "@ehospital/esm-admin-nav-app": "next",
     "@ehospital/esm-import-export-app": "next",
-    "@ehospital/esm-patient-visits-report-app": "next"
+    "@ehospital/esm-patient-visits-report-app": "next",
+    "@ehospital/esm-login-app": "next",
+    "@ehospital/esm-ai-model-app": "next"
   },
   "excludedFrontendModules": []
 }

@@ -4,6 +4,9 @@
       "Brand color #2": "#235787",
       "Brand color #3": "#235787"
   },
+  "@openmrs/esm-bed-management-app": {
+    "admissionLocationTagUuid": "f5b9737b-14d5-402b-8475-dd558808e172"
+  },
   "@ehospital/esm-billing-app": {
     "extensionSlots": {
       "billing-dashboard-slot": {}

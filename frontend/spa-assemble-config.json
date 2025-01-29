@@ -42,7 +42,8 @@
     "@ehospital/esm-import-export-app": "next",
     "@ehospital/esm-patient-visits-report-app": "next",
     "@ehospital/esm-login-app": "next",
-    "@ehospital/esm-ai-model-app": "next"
+    "@ehospital/esm-ai-model-app": "next",
+    "@ehospital/esm-messages-app": "next"
   },
   "excludedFrontendModules": []
 }

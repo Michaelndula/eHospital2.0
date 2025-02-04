@@ -2,7 +2,7 @@ import os
 
 from flask import Flask, request, jsonify
 from fastapi import HTTPException
-from llm.prompt_template import generate_prompt
+from prompt_template import generate_prompt
 from openai import OpenAI
 from dotenv import load_dotenv
 

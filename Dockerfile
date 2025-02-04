@@ -44,6 +44,6 @@ WORKDIR /llm
 COPY llm/requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 
-COPY . .
+COPY /llm .
 EXPOSE 5000
-CMD [ "gunicorn", "-b", "0.0.0.0:5000", "llm.app:app" ]
+CMD [ "gunicorn", "-b", "0.0.0.0:5000", "--timeout", "60", "app:app" ]

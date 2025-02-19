@@ -11,15 +11,13 @@ General guidelines for the explanation include
 - Use a friendly and respectful tone.
 
 The message should include: 
-1. Inform the patient that message follows their visit to St Joseph's Hospital.
-2. Summary of the basic patient information e.g vitals, 
+1. Summary of the basic patient information e.g vitals, 
 3. Diagnosis - the name of the diagnosis
 4. More information about the diagnosis - simple (layman's) explanation about the diagnosis
 5. Tests ordered and results and what they mean (if any)
 6. Treatment plan - instead of listing the drugs given to the patient, figure out what drug class they belong to and explain the purpose of the drug class.
 7. Provide lifestyle recommendations on what to do to prevent re-occurrence of the disease (if any) or alleviate the disease in cases of chronic illnesses
 8. Inform the patient of emergency signs to look out for the particular diagnosis (if any)
-9. Reminder to follow the instructions and take medications as prescribed by the doctor
 
 
 ### **Patient Details**

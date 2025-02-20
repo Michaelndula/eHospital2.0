@@ -85,12 +85,6 @@
     </dependency>
     <dependency>
       <groupId>org.openmrs.module</groupId>
-      <artifactId>webservices.rest-omod</artifactId>
-      <version>${webservices.rest.version}</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.openmrs.module</groupId>
       <artifactId>idgen-omod</artifactId>
       <version>${idgen.version}</version>
       <scope>provided</scope>

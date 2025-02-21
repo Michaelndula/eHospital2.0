@@ -23,14 +23,16 @@
 
     <!-- track module versions
          we do so here so that we can utilise Maven to track updates, etc. -->
-    <fhir2.version>2.3.0-SNAPSHOT</fhir2.version>
+    <fhir2.version>2.0.0-SNAPSHOT</fhir2.version>
     <authentication.version>1.0.0</authentication.version>
     <openmrs.version>2.6.5</openmrs.version>
     <initializer.version>2.7.0</initializer.version>
+    <webservices.rest.version>2.45.0-SNAPSHOT</webservices.rest.version>
     <addresshierarchy.version>2.17.0</addresshierarchy.version>
     <idgen.version>4.10.0</idgen.version>
     <legacyui.version>1.16.0</legacyui.version>
     <metadatamapping.version>1.6.0</metadatamapping.version>
+    <metadatasharing.version>1.9.0</metadatasharing.version>
     <openconceptlab.version>2.3.0</openconceptlab.version>
     <attachments.version>3.2.0</attachments.version>
     <referencedemodata.version>2.4.0</referencedemodata.version>
@@ -45,8 +47,8 @@
     <htmlwidgets.version>1.11.0</htmlwidgets.version>
     <serialization-xstream.version>0.2.16</serialization-xstream.version>
     <ordertemplates.version>1.0.2</ordertemplates.version>
-    <patientflags.version>3.0.8</patientflags.version>
-    <o3forms.version>2.3.0</o3forms.version>
+    <patientflags.version>3.0.7</patientflags.version>
+    <o3forms.version>2.2.0</o3forms.version>
     <emrapi.version>2.1.0</emrapi.version>
     <event.version>2.10.0</event.version>
     <bedmanagement.version>6.0.0</bedmanagement.version>
@@ -85,6 +87,12 @@
     </dependency>
     <dependency>
       <groupId>org.openmrs.module</groupId>
+      <artifactId>webservices.rest-omod</artifactId>
+      <version>${webservices.rest.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.openmrs.module</groupId>
       <artifactId>idgen-omod</artifactId>
       <version>${idgen.version}</version>
       <scope>provided</scope>
@@ -105,6 +113,12 @@
       <groupId>org.openmrs.module</groupId>
       <artifactId>metadatamapping-omod</artifactId>
       <version>${metadatamapping.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.openmrs.module</groupId>
+      <artifactId>metadatasharing-omod</artifactId>
+      <version>${metadatasharing.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>

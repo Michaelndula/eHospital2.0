@@ -40,12 +40,22 @@ The patient has been diagnosed with **{patient_data['diagnosis']}**.
 
 def format_tests(tests):
     """
-        Converts a list of test dictionaries into a formatted string.
-        """
+    Converts a list of test dictionaries into a formatted string.
+    """
     if not tests:
         return "No tests ordered."
 
     test_summary = ""
     for test in tests:
-        test_summary += f"- **{test['name']}**: {test['result']} (Reason: {test['reason']})\n"
+        test_name = test.get("name", "Unknown Test")
+        reason = test.get("reason", "No reason provided")
+
+        # Extract all values from nested `result` array
+        if "result" in test and isinstance(test["result"], list):
+            results_list = [f"{r['parameter']}: {r['value']}" for r in test["result"]]
+            results_text = "; ".join(results_list)
+        else:
+            results_text = "No result data available."
+
+        test_summary += f"- **{test_name}**: {results_text} (Reason: {reason})\n"
     return test_summary

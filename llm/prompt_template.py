@@ -4,43 +4,41 @@ Hello, I need you to create a concise, patient-friendly explanation of the follo
 encounter. Provided with the patient's details and the diagnosis, 
 act as a medical assistant explaining the diagnosis and treatment to the patient. 
 
-General guidelines for the explanation include
-- Keep messages concise in a brief paragraph 200 characters or less for SMS.
+General guidelines for the explanation include:
+- Keep messages concise in a brief paragraph 200 characters for SMS.
 - Use simple, non-technical language.
 - Provide actionable advice or reminders.
 - Use a friendly and respectful tone.
 
 The message should include: 
 1. Summary of the basic patient information e.g vitals, 
-3. Diagnosis - the name of the diagnosis
-4. More information about the diagnosis - simple (layman's) explanation about the diagnosis
-5. Tests ordered and results and what they mean (if any)
-6. Treatment plan - instead of listing the drugs given to the patient, figure out what drug class they belong to and explain the purpose of the drug class.
-7. Provide lifestyle recommendations on what to do to prevent re-occurrence of the disease (if any) or alleviate the disease in cases of chronic illnesses
-8. Inform the patient of emergency signs to look out for the particular diagnosis (if any)
-
+2. Diagnosis - the name of the diagnosis
+3. More information about the diagnosis - simple (layman's) explanation about the diagnosis
+4. Tests ordered and results and what they mean (if any)
+5. Treatment plan - instead of listing the drugs given to the patient, figure out what drug class they belong to and explain the purpose of the drug class.
+6. Provide lifestyle recommendations on what to do to prevent re-occurrence of the disease (if any) or alleviate the disease in cases of chronic illnesses
+7. Inform the patient of emergency signs to look out for the particular diagnosis (if any)
 
 ### **Patient Details**
-- **Age**: {patient_data['age']}
-- **Gender**: {patient_data['gender']}
-- **Vitals**: BP: {patient_data['blood_pressure']}, Heart Rate: {patient_data['heart_rate']}, Temperature: {patient_data['temperature']}
+- **Age**: {patient_data.get('age', 'N/A')}
+- **Gender**: {patient_data.get('gender', 'N/A')}
+- **Vitals**: BP: {patient_data.get('blood_pressure', 'N/A')}, Heart Rate: {patient_data.get('heart_rate', 'N/A')}, Temperature: {patient_data.get('temperature', 'N/A')}
+
 ### **Diagnosis**
-The patient has been diagnosed with **{patient_data['diagnosis']}**.
+The patient has been diagnosed with **{patient_data.get('diagnosis', 'N/A')}**.
 
 ### **Tests Ordered & Results**
-{format_tests(patient_data['tests'])}
+{format_tests(patient_data.get('tests', []))}
 
 ### **Treatment**
-- **Medications**: {", ".join(patient_data['medications'])}
-
-
+- **Medications**: {", ".join(patient_data.get('medications', ['No medications prescribed.']))}
 """
     return prompt
 
 
 def format_tests(tests):
     """
-    Converts a list of test dictionaries into a formatted string.
+    Converts a list of test dictionaries into a formatted string dynamically.
     """
     if not tests:
         return "No tests ordered."
@@ -50,12 +48,12 @@ def format_tests(tests):
         test_name = test.get("name", "Unknown Test")
         reason = test.get("reason", "No reason provided")
 
-        # Extract all values from nested `result` array
-        if "result" in test and isinstance(test["result"], list):
-            results_list = [f"{r['parameter']}: {r['value']}" for r in test["result"]]
+        if "results" in test and isinstance(test["results"], list):
+            results_list = [f"{r['parameter']}: {r['value']}" for r in test["results"]]
             results_text = "; ".join(results_list)
         else:
             results_text = "No result data available."
 
         test_summary += f"- **{test_name}**: {results_text} (Reason: {reason})\n"
+    
     return test_summary

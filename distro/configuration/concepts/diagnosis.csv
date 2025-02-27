@@ -5,7 +5,8 @@ CIEL: 142412;
 AMPATH: 5983;
 ICD-10-WHO: A09.9;
 IMO ProblemIT: 42046;
-SNOMED CT: 62315008",Diarrhoea,,,,,,Diagnosis,Coded,,,,
+SNOMED CT: 62315008","Diarrhoea
+",,,,,,Diagnosis,Coded,,,,
 112141AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"IMO ProblemIT: 24727;
 CIEL: 112141;
 PIH: 58;
@@ -17,11 +18,11 @@ SNOMED CT: 63650001;
 PIH: 198;
 CIEL: 122604;
 ICD-10-WHO: A00.0",CHOLERA,,,,,,Diagnosis,N/A,,,,
-72444092-9956-47da-8897-b76e4718c22f,,,MENINGOCOCCAL MENINGITIS,,,,,,Misc,N/A,,,,
+47afdfa3-fbce-42b7-976c-604bb9c2825e,,,MENINGOCOCCAL MENINGITIS,,,,,,Misc,N/A,,,,
 5f373b9c-93fe-4371-8fa8-39c05aed4323,,,OTHER MENINGITIS,,,,,,Misc,N/A,,,,
-603e0da9-6923-414e-a307-991064da413b,,,TETANUS,,,,,,Misc,N/A,,,,
+0ac9cb12-b0b8-49a1-b142-323f69c592e9,,,TETANUS,,,,,,Misc,N/A,,,,
 264d3b5e-0cda-47cf-bd1a-9c8f71313cff,,,POLIOMYELITIS(AFP),,,,,,Misc,N/A,,,,
-6650c64a-ca0b-47ca-9ab1-c2f1495f429d,,,CHICKEN POX,,,,,,Misc,N/A,,,,
+211a8eb0-be4d-4334-8560-e3d85b81f1b6,,,CHICKEN POX,,,,,,Misc,N/A,,,,
 134561AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"SNOMED CT: 14189004;
 AMPATH: 63;
 AMPATH: 5262;
@@ -29,17 +30,17 @@ CIEL: 134561;
 PIH: 63;
 ICD-10-WHO: B05.9;
 IMO ProblemIT: 28601",MEASLES,,,,,,Diagnosis,N/A,,,,
-116986AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"PIH: 29;
+49402458-7e45-410e-8bb6-180518dc4840,,"PIH: 29;
 CIEL: 116986;
 IMO ProblemIT: 1717636;
 SNOMED CT: 128241005;
 AMPATH: 5019;
 AMPATH: 29",HEPATITIS,,,,,,Diagnosis,N/A,,,,
-0893577f-14a1-4565-8629-e7ba348cfd7f,,,MUMPS,,,,,,Misc,N/A,,,,
+5fbdb90b-b06f-4f08-8e90-92805db5a379,,,MUMPS,,,,,,Misc,N/A,,,,
 ab01a44e-5a44-4d36-a8e4-8794d8026222,,,SUSPECTED/TESTED MALARIA,,,,,,Misc,N/A,,,,
 110d072b-fa9c-4898-aa0e-63846c79d1f1,,,CONFIRMED MALARIA (Only positive cases),,,,,,Misc,N/A,,,,
-c9a7f9e8-82bb-4d8d-ae6f-ecf50c7b233e,,,MALARIA IN PREGNANCY ,,,,,,Misc,N/A,,,,
-e12fa230-8cd0-45cf-822f-533307755a8f,,,Amoebiasis,,,,,,Misc,N/A,,,,
+cdd15a79-7583-48e3-8bc9-2b02553bdf91,,,MALARIA IN PREGNANCY ,,,,,,Misc,N/A,,,,
+0de700ed-39e2-4c53-a218-b21e672c6b18,,,Amoebiasis,,,,,,Misc,N/A,,,,
 141AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"AMPATH: 141;
 ICD-11-WHO: 1A07.Z;
 ICPC2: D70;
@@ -49,16 +50,16 @@ IMO ProblemIT: 24925;
 CIEL: 141;
 3BT: 30000308;
 ICD-10-WHO: A01.0",TYPHOID FEVER,,,,,,Diagnosis,N/A,,,,
-c648488d-36b6-4052-836d-fc404b7f851e,,,SEXUALLY TRANSMITTED INFECTIONS ,,,,,,Misc,N/A,,,,
+7b10c20d-410b-4671-a0c8-bf8acca096bb,,,SEXUALLY TRANSMITTED INFECTIONS ,,,,,,Misc,N/A,,,,
 111633AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"SNOMED CT: 68566005;
 IMO ProblemIT: 11857;
 PIH: 55;
 AMPATH: 224;
 CIEL: 111633;
 AMPATH: 55",URINARY TRACT INFECTION,,,,,,Diagnosis,N/A,,,,
-a9442b41-1cd0-4ad5-83b6-3268d328d695,,,Bilharzia (Schistosomiasis),,,,,,Misc,N/A,,,,
-7786fec7-dbdc-414f-890f-b6176ae31f2b,,,INTESTINAL WORMS,,,,,,Misc,N/A,,,,
-a2e4abc9-d4a9-419b-af6e-a68785a8c573,,,MALNUTRITION,,,,,,Misc,N/A,,,,
+ff84ebd8-50a0-4cb7-a7c8-96517d7b54a0,,,Bilharzia (Schistosomiasis),,,,,,Misc,N/A,,,,
+67347e15-05e3-4a54-b4c3-e474d13641cd,,,INTESTINAL WORMS,,,,,,Misc,N/A,,,,
+3726d866-bd35-4180-b20e-019d0443d670,,,MALNUTRITION,,,,,,Misc,N/A,,,,
 121629AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"ICPC2: B82;
 CIEL: 121629;
 AMPATH: 3;
@@ -66,11 +67,11 @@ SNOMED CT: 271727000;
 IMO ProblemIT: 37980;
 AMPATH: 6030;
 PIH: 3",ANAEMIA,,,,,,Diagnosis,N/A,,,,
-8a1c4638-89df-4ed0-b2d8-0ed1c6f750a1,,,EYE INFECTIONS,,,,,,Misc,N/A,,,,
+210bb549-f0f6-4dc5-9cb6-caf54ef02e9e,,,EYE INFECTIONS,,,,,,Misc,N/A,,,,
 141585AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"CIEL: 141585;
 SNOMED CT: 300197009;
 IMO ProblemIT: 736012",EAR INFECTION/CONDITIONS,,,,,,Diagnosis,N/A,,,,
-d98f8b04-920c-4908-a722-93a34efa3684,,,UPPER RESPIRATORY TRACT INFECTIONS,,,,,,Misc,N/A,,,,
+2d221b92-dee2-43a0-b77b-fe445289e18b,,,UPPER RESPIRATORY TRACT INFECTIONS,,,,,,Misc,N/A,,,,
 121375AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"CIEL: 121375;
 PIH: 5;
 SNOMED CT: 195967001;
@@ -102,15 +103,15 @@ b30ad39e-e46f-4e74-a587-f91d66a8e9ac,,,DENTAL  DISORDERS,,,,,,Misc,N/A,,,,
 7a61f196-32a4-4066-b493-d90b9b9177fd,,,JIGGERS INFESTATION,,,,,,Misc,N/A,,,,
 898c8c12-f95d-4f84-a9e1-5be87c52451c,,,DISEASE OF THE SKIN,,,,,,Misc,N/A,,,,
 70b56907-cbe6-4796-868e-2ba0dcfba833,,,"ANTHRITIS, JOINT PAINS",,,,,,Misc,N/A,,,,
-47a1132d-999b-42f3-8114-99a1e650bb2e,,,POISONING,,,,,,Misc,N/A,,,,
-eabdbb3c-f9da-469a-8405-c97061df3bed,,,ROAD TRAFFIC INJURIES,,,,,,Misc,N/A,,,,
+71293391-dc75-4c90-a4bc-5da60442b60c,,,POISONING,,,,,,Misc,N/A,,,,
+da454f8c-ccbf-42f6-b046-38f6036bc347,,,ROAD TRAFFIC INJURIES,,,,,,Misc,N/A,,,,
 ee534d5b-6320-4790-bfcc-a47e09964351,,,DEATH DUE TO ROAD TRAFFIC INJURIES,,,,,,Misc,N/A,,,,
-1534e0f1-eece-470f-bf5a-ee03a865e7a6,,,OTHER INJURIES,,,,,,Misc,N/A,,,,
-59d3ee16-4941-42b2-b05c-a9cab5aeeb53,,,SEXUAL Violence,,,,,,Misc,N/A,,,,
+cafabbfc-4776-4ff6-8c6d-4aee5c200ef4,,,OTHER INJURIES,,,,,,Misc,N/A,,,,
+0b1b1a73-62c7-4a98-847d-9917ebbdfcef,,,SEXUAL Violence,,,,,,Misc,N/A,,,,
 2cb58ab3-ddd3-49ed-b2fa-aae6bf9e2ee6,,,VIOLENCE RELATED INJURIES,,,,,,Misc,N/A,,,,
-6cc751f9-46eb-4565-891d-5f6e69be68d8,,,BURNS,,,,,,Misc,N/A,,,,
-a6003e2f-9c03-4f81-838f-7dcd4059a8bc,,,SNAKE BITES,,,,,,Misc,N/A,,,,
-e5095f5d-aaa7-48d0-bd3c-859206292423,,,DOG BITES,,,,,,Misc,N/A,,,,
+9ffa7692-97a0-44a7-8abd-da07de5bdf22,,,BURNS,,,,,,Misc,N/A,,,,
+dbbab20b-7071-4ae0-b2fb-622b2aa95813c,,,SNAKE BITES,,,,,,Misc,N/A,,,,
+d02121cb-f47e-479f-b065-2dcdeec2ccb7,,,DOG BITES,,,,,,Misc,N/A,,,,
 4bfbdee8-2574-4ed3-b9e3-295ae2bc6754,,,OTHER BITES,,,,,,Misc,N/A,,,,
 119481AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"SNOMED CT: 73211009;
 AMPATH: 175;
@@ -120,9 +121,9 @@ ANCDAK: ANC.B6.DE91;
 IMO ProblemIT: 29688;
 CIEL: 119481;
 PIH Malawi: 3720",DIABETES,,,,,,Diagnosis,Coded,,,,
-49e1df9a-fa8d-473d-9951-5ded5c4c0374,,,EPILEPSY,,,,,,Misc,N/A,,,,
-61093353-d66a-4929-96ce-790dc0f77e3f,,,BRUCELLOSIS,,,,,,Misc,N/A,,,,
-409ef0af-06d2-4b93-a79e-63b66ca58d9e,,,CARDIOVASCULAR CONDITIONS,,,,,,Misc,N/A,,,,
+19ff0ea5-18cf-4840-9add-bc0979f02023,,,EPILEPSY,,,,,,Misc,N/A,,,,
+5ffbcd33-57ca-4cfb-9c13-6d15f77a1b7b,,,BRUCELLOSIS,,,,,,Misc,N/A,,,,
+429275a6-bcc2-4334-9a1c-0f058dd7176a,,,CARDIOVASCULAR CONDITIONS,,,,,,Misc,N/A,,,,
 3323a2ea-c61a-4d37-adf0-525613d6381b,,,CENTRAL NERVOUS SYSTEM CONDITIONS,,,,,,Misc,N/A,,,,
 114413AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"IMO ProblemIT: 50813;
 PIH: 3230;
@@ -131,38 +132,38 @@ SNOMED CT: 238131007;
 ICPC2: T83;
 CIEL: 114413;
 3BT: 10077209",OVERWEIGHT (BMI > 25),,,,,,Diagnosis,N/A,,,,
-04e9c3bd-983b-463d-90d1-0acf07428ee3,,,MUSCULAR SKELETAL CONDITIONS,,,,,,Misc,N/A,,,,
-8ba52158-f72a-462f-becd-2b66c762156f,,,FISTULA (BIRTH RELATED),,,,,,Misc,N/A,,,,
+3d71e005-45b6-4b01-a5cb-a3e423c539f7,,,MUSCULAR SKELETAL CONDITIONS,,,,,,Misc,N/A,,,,
+140601d1-c6a5-46c3-85ac-ad2dc096f19f,,,FISTULA (BIRTH RELATED),,,,,,Misc,N/A,,,,
 24504273-7e73-4579-b7c4-f945ab59599b,,,Suspected Neoplams/Cancers,,,,,,Misc,N/A,,,,
-2d4795df-4571-46a5-b873-2e602bfbf3a5,,,PHYSICAL DISABILITY,,,,,,Misc,N/A,,,,
+98275ba9-ef92-473b-bf90-f69d3402ccb8,,,PHYSICAL DISABILITY,,,,,,Misc,N/A,,,,
 7554c625-e185-4c6c-9753-6506e5e2b85f,,,TRYPANOSOMIASIS,,,,,,Misc,N/A,,,,
-8a92e557-c5ef-48d0-a11c-17b162e496ad,,,Rift valley fever,,,,,,Misc,N/A,,,,
-242f88d1-7932-4c7a-8fd0-709ec0559ccf,,,YELLOW FEVER,,,,,,Misc,N/A,,,,
-fd662a59-6041-4ce8-8374-c64820217579,,,VIRAL HAEMORRHAGIC FEVER,,,,,,Misc,N/A,,,,
-a7da8354-af53-4a83-a9a4-7a42c956c734,,,Chikungunya,,,,,,Misc,N/A,,,,
-0dfdb6a2-6232-40ee-9676-41e8871b6588,,,Dengue fever,,,,,,Misc,N/A,,,,
+63613c65-9ea3-4479-be52-cbd0b8ad0753,,,Rift valley fever,,,,,,Misc,N/A,,,,
+7f4a2e54-63c9-4c7c-bddc-41418030398d,,,YELLOW FEVER,,,,,,Misc,N/A,,,,
+1482d7d6-b75d-410d-9357-6cb2c8d92882,,,VIRAL HAEMORRHAGIC FEVER,,,,,,Misc,N/A,,,,
+f1295de2-8c5b-4f3b-904a-671bdd89b1eb,,,Chikungunya,,,,,,Misc,N/A,,,,
+e5f90432-77ac-49fe-a34f-f816cca666b7,,,Dengue fever,,,,,,Misc,N/A,,,,
 526bda40-2fce-45fd-8ba9-c1921a25d5f6,,,KALAZAR (LEISHMANIASIS),,,,,,Misc,N/A,,,,
-5e642c96-cbe6-4837-8082-444e87b1d413,,,Cutaneous leishmaniasis,,,,,,Misc,N/A,,,,
-81a94f45-a08a-439e-9daa-d48b4185dcdf,,,Suspected Anthrax,,,,,,Misc,N/A,,,,
-4bad9c83-b6bd-4c02-995b-d6216f880c13,,,Diarrhoea with no dehydration,,,,,,Misc,N/A,,,,
-4d01f205-1c40-42b3-b1e2-395179d7fcb5,,,Diarrhoea with some dehydration,,,,,,Misc,N/A,,,,
+9b757626-dd2e-488d-84a0-ca3f4d1a8e51,,,Cutaneous leishmaniasis,,,,,,Misc,N/A,,,,
+b0a9fc8e-312b-45d8-b17a-5f96c431552e,,,Suspected Anthrax,,,,,,Misc,N/A,,,,
+395596de-a8f0-41aa-b1a3-db457e3a391d,,,Diarrhoea with no dehydration,,,,,,Misc,N/A,,,,
+ead479da-2930-46ff-8eb2-80373c88cdce,,,Diarrhoea with some dehydration,,,,,,Misc,N/A,,,,
 d97d9d7d-03c5-43da-a115-5e8a4a7adaca,,,Diarrhoea with severe dehydration,,,,,,Misc,N/A,,,,
 f7b62c18-afa4-4428-8b63-08391cf210f2,,,Dysentery (Bloody diarrhoea),,,,,,Misc,N/A,,,,
 1768581a-3a0a-4625-8ad6-5bf61f2df635,,,Gastroenteritis,,,,,,Misc,N/A,,,,
-4e6adce2-efd5-4b3b-bb54-ba69a78e4861,,,Severe pneumonia,,,,,,Misc,N/A,,,,
-6f331880-20b1-4c29-8707-d6907ea3f523,,,Lower Respiratory Tract Infections,,,,,,Misc,N/A,,,,
-762c26e6-9db3-404a-8344-e69b95360366,,,Presumed Tuberculosis,,,,,,Misc,N/A,,,,
-4893d13a-b25f-430d-a465-a35170846287,,,Neonatal Sepsis,,,,,,Misc,N/A,,,,
-eb4725ba-27b0-4cac-bc90-08d484339b1c,,,Neonatal Tetanus,,,,,,Misc,N/A,,,,
+dc3c23be-25fd-4ee2-a73e-373e9a32263d,,,Severe pneumonia,,,,,,Misc,N/A,,,,
+729c22a1-7a24-4f48-9502-38cffaa10cec,,,Lower Respiratory Tract Infections,,,,,,Misc,N/A,,,,
+155f11df-5823-4c3e-abd3-89fec68a3e1c,,,Presumed Tuberculosis,,,,,,Misc,N/A,,,,
+2ce3ab4d-acb7-4b62-8537-96f1f402428f,,,Neonatal Sepsis,,,,,,Misc,N/A,,,,
+9d8cd8b0-787a-4d96-9f89-db4e5937eb27,,,Neonatal Tetanus,,,,,,Misc,N/A,,,,
 598d46d5-48d0-4c00-8844-4e875b03a08b,,,Tonsilities,,,,,,Misc,N/A,,,,
 94ee72e9-0994-400a-bc08-11c588c95a08,,,Down’s syndrome,,,,,,Misc,N/A,,,,
-d936bc48-6f7f-4802-b4a6-aa9c0108cd24,,,Other Convulsive Disorders,,,,,,Misc,N/A,,,,
-86a54095-110e-4154-a3e7-b2c570211ac8,,,Rheumatic Fever,,,,,,Misc,N/A,,,,
-4008f0a7-8f1b-4861-83c0-fcf69138fc25,,,Rickets,,,,,,Misc,N/A,,,,
-b4e20a88-3a3d-47c8-9820-8bef2b76e1c7,,,Cerebral Palsy,,,,,,Misc,N/A,,,,
-e449a59d-e666-4b5b-9f66-a5cf870358e8,,,Autism,,,,,,Misc,N/A,,,,
-d3d9bae4-0b96-4347-8ed6-b3bcd8f84363,,,Suspected Childhood Cancers,,,,,,Misc,N/A,,,,
-0b3caef5-ead8-4a32-a3d9-45b7933b6165,,,Hypoxaemia (Spo2<90%),,,,,,Misc,N/A,,,,
+988b26cc-369e-42bf-9162-4e5380a45342,,,Other Convulsive Disorders,,,,,,Misc,N/A,,,,
+78e0def5-8587-4ed8-9d10-ff94c45503f9,,,Rheumatic Fever,,,,,,Misc,N/A,,,,
+52ac8884-2f04-4950-9311-86484e6a9f0e,,,Rickets,,,,,,Misc,N/A,,,,
+82788d82-e44d-4f3b-bf41-9700d2bfa5f1,,,Cerebral Palsy,,,,,,Misc,N/A,,,,
+1b4d77eb-3e30-4b6d-9602-a01b6a55dbce,,,Autism,,,,,,Misc,N/A,,,,
+6e0dea57-a96a-46f5-9b22-75fee201949c,,,Suspected Childhood Cancers,,,,,,Misc,N/A,,,,
+b061a625-e12a-4f44-9c59-489a1fd15f88,,,Hypoxaemia (Spo2<90%),,,,,,Misc,N/A,,,,
 759bf916-5549-4fe1-a588-a399ba04dfd5,,,Diagnosis/Impressions,,,,,,Question,Coded,"Diarrhoea;
 TUBERCULOSIS;
 CHOLERA;
@@ -247,7 +248,7 @@ Cerebral Palsy;
 Autism;
 Suspected Childhood Cancers;
 Hypoxaemia (Spo2<90%)",,,
-410d7684-2045-4eff-9af3-1fb57a406123,,,Other Diseases,,,,,,Question,Text,,,,
+5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,,Other Diseases,,,,,,Question,Text,,,,
 b0fef4a0-a77b-4cce-8a1b-d60d2bcd6e8e,,,OTHER MENINGITIS Specify,,,,,,Question,Text,,,,
 4dbab2e3-d47d-49dc-8dbe-e9a83567f230,,,Other Convulsive Disorders Specify,,,,,,Question,Text,,,,
 4b503f44-f9ff-4444-a8bd-2c928c3ae5c4,,,OTHER BITES Specify,,,,,,Question,Text,,,,

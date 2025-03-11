@@ -26,3 +26,4 @@ tqdm
 typing_extensions
 uvicorn
 Werkzeug
+flask-cors

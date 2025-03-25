@@ -1,0 +1,25 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Answers,Members,_version:7894,_order:1001
+165562AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,,Salmonella typhi rapid diagnostic test,,Salmonella typhi rapid diagnostic test,,,,Test,Coded,"Negative;
+Positive",,,
+c2f57472-aa0d-4ac5-b505-b3d5dbbc800e,,,SALMONELLA ANTIGENS TEST(SAT),,SALMONELLA ANTIGENS TEST(SAT),,,,Test,Coded,Positive; Negative; Indeterminate,,,
+e09e82fe-f1d0-4159-973e-df5e4b33c93d,,,P24 Antigen,,P24 Antigen,,,,Test,Coded,"Negative;
+Positive",,,
+5d22b876-164c-480e-bfbc-093be5ef4553,,,HIV Antibodies (VCT),,HIV Antibodies (VCT),,,,Test,Coded,"Negative;
+Positive",,,
+b060e79e-f91f-4ab4-9971-c5fb6a84767d,,,"P24, HIV(VCT)",,"P24, HIV(VCT)",,,,LabSet,N/A,,"P24 Antigen;
+HIV Antibodies (VCT)",,
+a6d6f1eb-8524-474c-8aac-c5424deb5e0d,,,Antistreptolysin O Titre (ASOT),,Antistreptolysin O Titre (ASOT),,,,Test,Numeric,,,,
+aef17329-e8c7-4782-a0dd-71ea592990c1,,,ROTA / ADENO VIRUS,,ROTA / ADENO VIRUS,,,,Test,Coded,Positive; Negative; Indeterminate,,,
+ef7c5532-5646-4f62-9d8a-4627c7d9fb55,,,ANC Profile,,ANC Profile,,,,LabSet,N/A,,"Haemoglobin;
+Blood typing;
+HIV viral load, qualitative;
+Hepatitis B Surface Antigen Test;
+VDRL;
+Urinalysis order;
+Random Blood Sugar (RBS);
+Rapid test for malaria",,
+305AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,,BRUCELLA TEST,,BRUCELLA TEST,,,,Test,Coded,"Reactive;
+Non-reactive",,,
+93a428a7-d02c-4319-ba2e-b0fe5c30c1d3,,,Urethral Swab for Gram Stain,,Urethral Swab for Gram Stain,,,,Test,Text,,,,
+161470AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,,Rheumatoid factor,,Rheumatoid factor,,,,Test,Coded,"Negative;
+Positive",,,

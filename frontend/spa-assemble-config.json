@@ -33,6 +33,7 @@
     "@openmrs/esm-user-onboarding-app": "next",
     "@openmrs/esm-ward-app": "next",
     "@openmrs/esm-bed-management-app": "next",
+    "@ohri/openmrs-esm-ohri-form-render-app":"2.3.7-pre.507",
     "@ehospital/esm-billing-app": "next",
     "@ehospital/esm-patient-registration-app": "next",
     "@ehospital/esm-patient-list-app": "next",

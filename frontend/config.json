@@ -61,7 +61,8 @@
         "remove": [
           "dispensing-link",
           "forms-app-link",
-          "system-administration-app-menu-link"
+          "system-administration-app-menu-link",
+          "form-render-link"
         ]
       }
     }

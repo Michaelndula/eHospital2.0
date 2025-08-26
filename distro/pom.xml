@@ -175,6 +175,32 @@
     </dependency>
     <dependency>
       <groupId>org.openmrs.module</groupId>
+      <artifactId>appframework-omod</artifactId>
+      <version>${appframework.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openmrs.module</groupId>
+      <artifactId>appui-omod</artifactId>
+      <version>${appui.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.openmrs.module</groupId>
+      <artifactId>reportingui-omod</artifactId>
+      <version>${reportingui.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openmrs.module</groupId>
+      <artifactId>uicommons-omod</artifactId>
+      <version>${uicommons.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openmrs.module</groupId>
+      <artifactId>uiframework-omod</artifactId>
+      <version>${uiframework.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openmrs.module</groupId>
       <artifactId>calculation-omod</artifactId>
       <version>${calculation.version}</version>
       <scope>provided</scope>

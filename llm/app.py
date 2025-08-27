@@ -16,15 +16,9 @@ if not OPENAI_API_KEY:
 
 app = Flask(__name__)
 
-CORS(app, resources={r"/*": {
-    "origins": "*",
-    "allow_headers": ["Content-Type", "Authorization"],
-    "methods": ["GET", "POST", "OPTIONS", "PUT", "DELETE"]
-}})
+CORS(app, resources={r"/*": {"origins": "*"}})
 
-client = OpenAI(
-    api_key=OPENAI_API_KEY
-)
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 @app.route('/generate_summary', methods=['POST'])
 def generate_summary():
@@ -45,26 +39,11 @@ def generate_summary():
         )
 
         patient_message = response.choices[0].message.content
-
-        response_data = jsonify({"message": patient_message})
-        response_data.headers.add("Access-Control-Allow-Origin", "*")
-        response_data.headers.add("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE")
-        response_data.headers.add("Access-Control-Allow-Headers", "Content-Type, Authorization")
-        response_data.headers.add("Access-Control-Allow-Credentials", "true")
-
-        return response_data, 200
+        
+        return jsonify({"message": patient_message}), 200
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
-@app.route('/generate_summary', methods=['OPTIONS'])
-def options():
-    response = jsonify({"message": "CORS preflight successful"})
-    response.headers.add("Access-Control-Allow-Origin", "*")
-    response.headers.add("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE")
-    response.headers.add("Access-Control-Allow-Headers", "Content-Type, Authorization")
-    response.headers.add("Access-Control-Allow-Credentials", "true")
-    return response, 204
 
 if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0", port=5000)

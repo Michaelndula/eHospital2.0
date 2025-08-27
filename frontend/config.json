@@ -113,6 +113,13 @@
           ]
         },
         {
+          "id": "llmConsent",
+          "name": "LLM Message Consent",
+          "fields": [
+            "llm"
+          ]
+        },
+        {
           "id": "students",
           "name": "Student Details (Applies to students)",
           "fields": [
@@ -125,7 +132,8 @@
           "demographics",
           "contact",
           "relationships",
-          "students"
+          "students",
+          "llmConsent"
       ],
       "fieldDefinitions": [
             {
@@ -182,6 +190,25 @@
               "type": "person attribute",
               "uuid": "f9c39d6c-9893-4474-8070-ef592f2be875",
               "label": "Foundation Name"
+            },
+            {
+              "id": "llm",
+              "type": "obs",
+              "uuid": "b71c3f8e-68c2-4285-bb94-95b9f86ff51a",
+              "label": "Does the Patient want to recieve Message from the LLM?",
+              "validation": {
+                "required": true
+              },
+              "customConceptAnswers": [
+                {
+                  "uuid": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                  "label": "Yes"
+                },
+                {
+                  "uuid": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                  "label": "No"
+                }
+              ]
             }
       ],
       "fieldConfigurations": {

@@ -1,0 +1,3 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Description:en,...,_version:1,_order:1000000,Data class,Data type,Answers,Members
+b71c3f8e-68c2-4285-bb94-95b9f86ff51a,,,Patient wants to recieve LLM Message?,Patient wants to recieve LLM Message?,Concept to record if patient has given concent to receive LLM message,,,,Question,Coded,"Yes;
+No",

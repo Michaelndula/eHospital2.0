@@ -24,3 +24,4 @@ b2c4d5e6-7f8a-4e9b-8c1d-2e3f8e4a3b8f,,Transfer Request,A stand-alone encounter t
 f47ac10b-58cc-4372-a567-0e02b2c3d479,,Bed Assignment,Assigning a new bed to a patient without admitting or transferring them,,,
 550e8400-e29b-41d4-a716-446655440000,,Cancel ADT,An encounter that notes that a request to admit/transfer/discharge a patient is being overridden,,,
 7df67b83-1b84-4fe2-b1b7-794b4e9bfcc3,,Drug Order,Encounter for orders,,,
+2080f13b-ee1a-4d57-a1b5-2da4f39df226,,LLM Message Consent,Encounter to record LLM Message Patient Consents,,,

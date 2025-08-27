@@ -116,7 +116,7 @@
           "id": "llmConsent",
           "name": "LLM Message Consent",
           "fields": [
-            "llm"
+            "consentLlm"
           ]
         },
         {
@@ -131,9 +131,9 @@
       "sections": [
           "demographics",
           "contact",
-          "relationships",
+          "llmConsent",
           "students",
-          "llmConsent"
+          "relationships"
       ],
       "fieldDefinitions": [
             {
@@ -192,7 +192,7 @@
               "label": "Foundation Name"
             },
             {
-              "id": "llm",
+              "id": "consentLlm",
               "type": "obs",
               "uuid": "b71c3f8e-68c2-4285-bb94-95b9f86ff51a",
               "label": "Does the Patient want to recieve Message from the LLM?",
@@ -211,6 +211,10 @@
               ]
             }
       ],
+      "registrationObs": {
+        "encounterTypeUuid": "2080f13b-ee1a-4d57-a1b5-2da4f39df226",
+        "registrationFormUuid": "50d7605c-9670-331c-bf19-5794548c8540"
+      },
       "fieldConfigurations": {
         "name": {
           "displayCapturePhoto": false,

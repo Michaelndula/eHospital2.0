@@ -1,0 +1,5 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Description:en,...,_version:1,_order:1000000,Data class,Data type,Answers,Members
+35f39cbf-d65b-4c09-9387-01ba47ed0977,,,Standard patient,Standard patient,Concept to indicate a Standard patient,,,,Misc,N/A,,
+d76fa0fc-798b-4259-9870-7cb93f1da762,,,SHA patient,SHA patient,Concept to indicate aS patien SHA patient,,,,Misc,N/A,,
+d32ea3a0-017c-473f-99f4-fde9aa9ec6ce,,,Patient Category (SHA/Standard),Patient Category (SHA/Standard),Concept to record if patient is Standard or a SHA Patient,,,,Question,Coded,"Standard patient;
+SHA patient",

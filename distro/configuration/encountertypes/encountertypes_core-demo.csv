@@ -25,3 +25,4 @@ f47ac10b-58cc-4372-a567-0e02b2c3d479,,Bed Assignment,Assigning a new bed to a pa
 550e8400-e29b-41d4-a716-446655440000,,Cancel ADT,An encounter that notes that a request to admit/transfer/discharge a patient is being overridden,,,
 7df67b83-1b84-4fe2-b1b7-794b4e9bfcc3,,Drug Order,Encounter for orders,,,
 2080f13b-ee1a-4d57-a1b5-2da4f39df226,,LLM Message Consent,Encounter to record LLM Message Patient Consents,,,
+3771100f-6763-4d90-ae49-a16892cbd6dc,,Patient Type,Encounter to Indicates whether the patient is a SHA or Standard,,,

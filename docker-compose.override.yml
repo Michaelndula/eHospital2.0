@@ -4,11 +4,21 @@ services:
   gateway:
     build:
       context: ./gateway
+    networks:
+      - ehospital
 
   frontend:
     build:
       context: ./frontend
+    networks:
+      - ehospital
 
   backend:
     build:
       context: .
+    networks:
+      - ehospital
+
+networks:
+  ehospital:
+    driver: bridge

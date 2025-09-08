@@ -4,15 +4,15 @@ services:
   gateway:
     image: nginx:alpine
     restart: "unless-stopped"
+    volumes:
+      - ./nginx/custom.template:/etc/nginx/templates/default.conf.template:ro
     depends_on:
       - frontend
       - backend
-    volumes:
-      - ./nginx:/etc/nginx
-      - /opt/certs:/opt/certs
     ports:
       - "80:80"
-      - "443:443"
+    networks:
+      - ehospital
 
   frontend:
     image: openmrs/openmrs-reference-application-3-frontend:${TAG:-qa}
@@ -27,6 +27,8 @@ services:
       timeout: 5s
     depends_on:
       - backend
+    networks:
+      - ehospital
 
   backend:
     image: openmrs/openmrs-reference-application-3-backend:${TAG:-qa}
@@ -46,6 +48,8 @@ services:
       timeout: 5s
     volumes:
       - openmrs-data:/openmrs/data
+    networks:
+      - ehospital
 
   # MariaDB
   db:
@@ -64,7 +68,8 @@ services:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-openmrs}
     volumes:
       - db-data:/var/lib/mysql
-
+    networks:
+      - ehospital
   ##Flask api for llm
   llm-api:
     build:
@@ -77,7 +82,13 @@ services:
     - .env
     environment:
       OPENAI_API_KEY: ${OPENAI_API_KEY}
+    networks:
+      - ehospital
 
 volumes:
   openmrs-data: ~
   db-data: ~
+
+networks:
+  ehospital:
+    driver: bridge

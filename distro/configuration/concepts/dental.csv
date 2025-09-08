@@ -19,6 +19,13 @@ a4cebf9a-8757-406d-99c7-4aa11436d70c,,,Crown & Bridge,Crown & Bridge,,,,,Misc,N/
 166b3f83-036d-4192-99c3-014439c28ad6,,,Full Dentures,Full Dentures,,,,,Misc,N/A,,
 0eab3473-ac47-485c-9692-42a329187d5f,,,Braces,Braces,,,,,Misc,N/A,,
 a1b74c6d-e6be-491b-af49-feb7a3a48bf7,,,Pulpectomy,Pulpectomy,,,,,Misc,N/A,,
+71c2d90f-e3c2-445f-9982-cb10abcde860,,,Socket Fixation,Socket Fixation,,,,,Misc,N/A,,
+3e8b2d29-9bd2-4b96-8702-9f05b8b548ec,,,Masking,Masking,,,,,Misc,N/A,,
+23ef1211-3473-44b4-b0fc-aca22b505363,,,Disimpation,Disimpation,,,,,Misc,N/A,,
+4af9bdc8-b210-45f0-b859-0065e482390c,,,Suturing,Suturing,,,,,Misc,N/A,,
+531efe1a-22ca-4a82-a375-363848b8a392,,,Spinting,Spinting,,,,,Misc,N/A,,
+4d7029fe-53a3-45e6-a90b-84c6aaa7562a,,,MMF(Maxillo Mandibular Fixation),MMF(Maxillo Mandibular Fixation),,,,,Misc,N/A,,
+1af9817b-f08b-440b-909b-acd39bc1d080,,,Reenforcement,Reenforcement,,,,,Misc,N/A,,
 595fd534-3612-422a-9dfa-e4cd34cdb337,,,Other Dental procedure,Other Dental procedure,,,,,Misc,N/A,,
 d7183d0d-1f07-4dc4-a16a-a66e9e4a22b3,,,Dental procedure,,,,,,Question,Coded,"Filling;
 Extraction;
@@ -31,6 +38,13 @@ Partial Dentures;
 Full Dentures;
 Braces;
 Pulpectomy;
+Socket Fixation;
+Masking;
+Disimpation;
+Suturing;
+Spinting;
+MMF(Maxillo Mandibular Fixation);
+Reenforcement;
 Other Dental procedure",
 0e6c3b2e-cd0c-4eb1-a6e8-bdc4855d81d5,,,Other Dental procedure Specify,,,,,,Question,Text,,
 2dd2e395-858b-4754-878c-bc22afe0f3d6,,,Dental findings,Dental findings,,,,,Question,Text,,

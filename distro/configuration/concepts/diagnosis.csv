@@ -5,19 +5,19 @@ CIEL: 142412;
 AMPATH: 5983;
 ICD-10-WHO: A09.9;
 IMO ProblemIT: 42046;
-SNOMED CT: 62315008","Diarrhoea
+SNOMED CT: 62315008","Diarrhea
 ",,,,,,Diagnosis,Coded,,,,
 112141AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"IMO ProblemIT: 24727;
 CIEL: 112141;
 PIH: 58;
 org.openmrs.module.mdrtb: TUBERCULOSIS;
 AMPATH: 58;
-SNOMED CT: 56717001",TUBERCULOSIS,,,,,,Diagnosis,Coded,,,,
+SNOMED CT: 56717001",Tuberculosis,,,,,,Diagnosis,Coded,,,,
 122604AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"IMO ProblemIT: 79816;
 SNOMED CT: 63650001;
 PIH: 198;
 CIEL: 122604;
-ICD-10-WHO: A00.0",CHOLERA,,,,,,Diagnosis,N/A,,,,
+ICD-10-WHO: A00.0",Cholera due to Vibrio cholerae,,,,,,Diagnosis,N/A,,,,
 47afdfa3-fbce-42b7-976c-604bb9c2825e,,,MENINGOCOCCAL MENINGITIS,,,,,,Misc,N/A,,,,
 5f373b9c-93fe-4371-8fa8-39c05aed4323,,,OTHER MENINGITIS,,,,,,Misc,N/A,,,,
 0ac9cb12-b0b8-49a1-b142-323f69c592e9,,,TETANUS,,,,,,Misc,N/A,,,,
@@ -29,7 +29,7 @@ AMPATH: 5262;
 CIEL: 134561;
 PIH: 63;
 ICD-10-WHO: B05.9;
-IMO ProblemIT: 28601",MEASLES,,,,,,Diagnosis,N/A,,,,
+IMO ProblemIT: 28601",Measles,,,,,,Diagnosis,N/A,,,,
 49402458-7e45-410e-8bb6-180518dc4840,,"PIH: 29;
 CIEL: 116986;
 IMO ProblemIT: 1717636;
@@ -49,14 +49,14 @@ SNOMED CT: 4834000;
 IMO ProblemIT: 24925;
 CIEL: 141;
 3BT: 30000308;
-ICD-10-WHO: A01.0",TYPHOID FEVER,,,,,,Diagnosis,N/A,,,,
+ICD-10-WHO: A01.0",Typhoid fever,,,,,,Diagnosis,N/A,,,,
 7b10c20d-410b-4671-a0c8-bf8acca096bb,,,SEXUALLY TRANSMITTED INFECTIONS ,,,,,,Misc,N/A,,,,
 111633AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"SNOMED CT: 68566005;
 IMO ProblemIT: 11857;
 PIH: 55;
 AMPATH: 224;
 CIEL: 111633;
-AMPATH: 55",URINARY TRACT INFECTION,,,,,,Diagnosis,N/A,,,,
+AMPATH: 55",Urinary tract infection,,,,,,Diagnosis,N/A,,,,
 ff84ebd8-50a0-4cb7-a7c8-96517d7b54a0,,,Bilharzia (Schistosomiasis),,,,,,Misc,N/A,,,,
 67347e15-05e3-4a54-b4c3-e474d13641cd,,,INTESTINAL WORMS,,,,,,Misc,N/A,,,,
 3726d866-bd35-4180-b20e-019d0443d670,,,MALNUTRITION,,,,,,Misc,N/A,,,,
@@ -66,11 +66,11 @@ AMPATH: 3;
 SNOMED CT: 271727000;
 IMO ProblemIT: 37980;
 AMPATH: 6030;
-PIH: 3",ANAEMIA,,,,,,Diagnosis,N/A,,,,
+PIH: 3",Anaemia,,,,,,Diagnosis,N/A,,,,
 210bb549-f0f6-4dc5-9cb6-caf54ef02e9e,,,EYE INFECTIONS,,,,,,Misc,N/A,,,,
 141585AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"CIEL: 141585;
 SNOMED CT: 300197009;
-IMO ProblemIT: 736012",EAR INFECTION/CONDITIONS,,,,,,Diagnosis,N/A,,,,
+IMO ProblemIT: 736012",Ear Problem,,,,,,Diagnosis,N/A,,,,
 2d221b92-dee2-43a0-b77b-fe445289e18b,,,UPPER RESPIRATORY TRACT INFECTIONS,,,,,,Misc,N/A,,,,
 121375AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"CIEL: 121375;
 PIH: 5;
@@ -79,7 +79,7 @@ IMO ProblemIT: 94262;
 ICD-10-WHO: J45.9;
 AMPATH: 5;
 PIH Malawi: 5;
-AMPATH: 137",ASTHMA,,,,,,Diagnosis,Coded,,,,
+AMPATH: 137",Asthma,,,,,,Diagnosis,Coded,,,,
 114100AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"PIH: 43;
 CIEL: 114100;
 AMPATH: 43;
@@ -88,17 +88,17 @@ ICD-10-WHO: J18.9;
 IMO ProblemIT: 87580;
 AMPATH: 5969;
 ICPC2: R81;
-SNOMED CT: 233604007",PNEUMONIA,,,,,,Diagnosis,N/A,,,,
+SNOMED CT: 233604007",Pneumonia,,,,,,Diagnosis,N/A,,,,
 a4744bfc-034f-46ff-8996-033bcbaa374d,,,OTHER DIS. OF RESPIRATORY SYSTEM,,,,,,Misc,N/A,,,,
 075a227e-f9ed-4b88-ac13-0d253ba15567,,,ABORTION,,,,,,Misc,N/A,,,,
 0e6a103e-92b3-4d28-a7c9-f12987039470,,,DIS. OF PUERPERIUM & CHILDBATH,,,,,,Misc,N/A,,,,
 117399AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"SNOMED CT: 38341003;
 IMO ProblemIT: 86491;
 CIEL: 117399;
-ANCDAK: ANC.B6.DE96",HYPERTENSION,,,,,,Diagnosis,N/A,,,,
+ANCDAK: ANC.B6.DE96",Hypertension,,,,,,Diagnosis,N/A,,,,
 77AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"AMPATH: 77;
 CIEL: 77;
-SNOMED CT: 74732009",MENTAL DISORDERS,,,,,,ConvSet,N/A,,,,
+SNOMED CT: 74732009",Mental disorders,,,,,,ConvSet,N/A,,,,
 b30ad39e-e46f-4e74-a587-f91d66a8e9ac,,,DENTAL  DISORDERS,,,,,,Misc,N/A,,,,
 7a61f196-32a4-4066-b493-d90b9b9177fd,,,JIGGERS INFESTATION,,,,,,Misc,N/A,,,,
 898c8c12-f95d-4f84-a9e1-5be87c52451c,,,DISEASE OF THE SKIN,,,,,,Misc,N/A,,,,
@@ -110,7 +110,7 @@ cafabbfc-4776-4ff6-8c6d-4aee5c200ef4,,,OTHER INJURIES,,,,,,Misc,N/A,,,,
 0b1b1a73-62c7-4a98-847d-9917ebbdfcef,,,SEXUAL Violence,,,,,,Misc,N/A,,,,
 2cb58ab3-ddd3-49ed-b2fa-aae6bf9e2ee6,,,VIOLENCE RELATED INJURIES,,,,,,Misc,N/A,,,,
 9ffa7692-97a0-44a7-8abd-da07de5bdf22,,,BURNS,,,,,,Misc,N/A,,,,
-dbbab20b-7071-4ae0-b2fb-622b2aa95813c,,,SNAKE BITES,,,,,,Misc,N/A,,,,
+3d3b4a56-69e8-4a12-9f78-d0b9f52bd92e,,,Snake Bite,,,,,,Misc,N/A,,,,
 d02121cb-f47e-479f-b065-2dcdeec2ccb7,,,DOG BITES,,,,,,Misc,N/A,,,,
 4bfbdee8-2574-4ed3-b9e3-295ae2bc6754,,,OTHER BITES,,,,,,Misc,N/A,,,,
 119481AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,"SNOMED CT: 73211009;
@@ -120,7 +120,7 @@ PIH: 3720;
 ANCDAK: ANC.B6.DE91;
 IMO ProblemIT: 29688;
 CIEL: 119481;
-PIH Malawi: 3720",DIABETES,,,,,,Diagnosis,Coded,,,,
+PIH Malawi: 3720",Diabetes mellitus,,,,,,Diagnosis,Coded,,,,
 19ff0ea5-18cf-4840-9add-bc0979f02023,,,EPILEPSY,,,,,,Misc,N/A,,,,
 5ffbcd33-57ca-4cfb-9c13-6d15f77a1b7b,,,BRUCELLOSIS,,,,,,Misc,N/A,,,,
 429275a6-bcc2-4334-9a1c-0f058dd7176a,,,CARDIOVASCULAR CONDITIONS,,,,,,Misc,N/A,,,,
@@ -150,7 +150,7 @@ ead479da-2930-46ff-8eb2-80373c88cdce,,,Diarrhoea with some dehydration,,,,,,Misc
 d97d9d7d-03c5-43da-a115-5e8a4a7adaca,,,Diarrhoea with severe dehydration,,,,,,Misc,N/A,,,,
 f7b62c18-afa4-4428-8b63-08391cf210f2,,,Dysentery (Bloody diarrhoea),,,,,,Misc,N/A,,,,
 1768581a-3a0a-4625-8ad6-5bf61f2df635,,,Gastroenteritis,,,,,,Misc,N/A,,,,
-dc3c23be-25fd-4ee2-a73e-373e9a32263d,,,Severe pneumonia,,,,,,Misc,N/A,,,,
+dc3c23be-25fd-4ee2-a73e-373e9a32263d,,,Severe Pneumonia,,,,,,Misc,N/A,,,,
 729c22a1-7a24-4f48-9502-38cffaa10cec,,,Lower Respiratory Tract Infections,,,,,,Misc,N/A,,,,
 155f11df-5823-4c3e-abd3-89fec68a3e1c,,,Presumed Tuberculosis,,,,,,Misc,N/A,,,,
 2ce3ab4d-acb7-4b62-8537-96f1f402428f,,,Neonatal Sepsis,,,,,,Misc,N/A,,,,
@@ -164,38 +164,38 @@ dc3c23be-25fd-4ee2-a73e-373e9a32263d,,,Severe pneumonia,,,,,,Misc,N/A,,,,
 1b4d77eb-3e30-4b6d-9602-a01b6a55dbce,,,Autism,,,,,,Misc,N/A,,,,
 6e0dea57-a96a-46f5-9b22-75fee201949c,,,Suspected Childhood Cancers,,,,,,Misc,N/A,,,,
 b061a625-e12a-4f44-9c59-489a1fd15f88,,,Hypoxaemia (Spo2<90%),,,,,,Misc,N/A,,,,
-759bf916-5549-4fe1-a588-a399ba04dfd5,,,Diagnosis/Impressions,,,,,,Question,Coded,"Diarrhoea;
-TUBERCULOSIS;
-CHOLERA;
+759bf916-5549-4fe1-a588-a399ba04dfd5,,,Diagnosis/Impressions,,,,,,Question,Coded,"Diarrhea;
+Tuberculosis;
+Cholera due to Vibrio cholerae;
 MENINGOCOCCAL MENINGITIS;
 OTHER MENINGITIS;
 TETANUS;
 POLIOMYELITIS(AFP);
 CHICKEN POX;
-MEASLES;
+Measles;
 HEPATITIS;
 MUMPS;
 SUSPECTED/TESTED MALARIA;
 CONFIRMED MALARIA (Only positive cases);
 MALARIA IN PREGNANCY; 
 Amoebiasis;
-TYPHOID FEVER;
+Typhoid fever;
 SEXUALLY TRANSMITTED INFECTIONS; 
-URINARY TRACT INFECTION;
+Urinary tract infection;
 Bilharzia (Schistosomiasis);
 INTESTINAL WORMS;
 MALNUTRITION;
-ANAEMIA;
+Anaemia;
 EYE INFECTIONS;
-EAR INFECTION/CONDITIONS;
+Ear Problem;
 UPPER RESPIRATORY TRACT INFECTIONS;
-ASTHMA;
-PNEUMONIA;
+Asthma;
+Pneumonia;
 OTHER DIS. OF RESPIRATORY SYSTEM;
 ABORTION;
 DIS. OF PUERPERIUM & CHILDBATH;
-HYPERTENSION;
-MENTAL DISORDERS;
+Hypertension;
+Mental disorders;
 DENTAL  DISORDERS;
 JIGGERS INFESTATION;
 DISEASE OF THE SKIN;
@@ -207,9 +207,10 @@ OTHER INJURIES;
 SEXUAL Violence;
 VIOLENCE RELATED INJURIES;
 BURNS;
+Snake Bite;
 DOG BITES;
 OTHER BITES;
-DIABETES;
+Diabetes mellitus;
 EPILEPSY;
 BRUCELLOSIS;
 CARDIOVASCULAR CONDITIONS;
@@ -233,7 +234,7 @@ Diarrhoea with some dehydration;
 Diarrhoea with severe dehydration;
 Dysentery (Bloody diarrhoea);
 Gastroenteritis;
-Severe pneumonia;
+Severe Pneumonia;
 Lower Respiratory Tract Infections;
 Presumed Tuberculosis;
 Neonatal Sepsis;

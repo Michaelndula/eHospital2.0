@@ -140,6 +140,7 @@
               "uuid": "b2c38640-2603-4629-aebd-3b54f33f1e3a",
               "label": "Alternate Phone Number",
               "validation": {
+                "required": false,
                 "matches": "^(?:\\+?254|0)?(7|1)\\d{8}$"
               }
             },
@@ -213,7 +214,7 @@
         "phone": {
           "personAttributeUuid":"14d4f066-15f5-102d-96e4-000c29c2a5d7",
           "validation": {
-            "required": false,
+            "required": true,
             "matches": "^(?:\\+?254|0)?(7|1)\\d{8}$"
           }
         }

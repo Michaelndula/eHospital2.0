@@ -367,7 +367,6 @@
     },
     "extensionSlots": {
       "prescription-action-button-slot": {
-        "remove": ["dispense-action-button"],
         "add": ["billing-test-order-action"]
       }
     },

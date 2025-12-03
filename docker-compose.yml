@@ -4,13 +4,15 @@ services:
   gateway:
     image: nginx:alpine
     restart: "unless-stopped"
-    volumes:
-      - ./nginx/custom.template:/etc/nginx/templates/default.conf.template:ro
     depends_on:
       - frontend
       - backend
+    volumes:
+      - ./nginx:/etc/nginx
+      - /opt/certs:/opt/certs
     ports:
       - "80:80"
+      - "443:443"
     networks:
       - ehospital
 

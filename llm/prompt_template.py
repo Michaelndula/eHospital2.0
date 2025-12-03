@@ -36,6 +36,7 @@ The message should include:
 5. Treatment plan - instead of listing the drugs given to the patient, figure out what drug class they belong to and explain the purpose of the drug class.
 6. Provide lifestyle recommendations on what to do to prevent re-occurrence of the disease (if any) or alleviate the disease in cases of chronic illnesses.
 7. Inform the patient of emergency signs to look out for the particular diagnosis (if any).
+8. Please conclude the message by asking for feedback on the summary provided and include this link: https://forms.gle/TJrgHPbAWqnuJZB69
 
 ### **Patient Details**
 - **Age**: {patient_data.get('age', 'N/A')}

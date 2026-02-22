@@ -55,14 +55,14 @@
       }
     }
   },
-  "@ehospital/esm-login-app": {
+  "@careconnect/esm-login-app": {
       "logo": {
-          "src": "/openmrs/spa/ehospitallogo.png"
+          "src": "/openmrs/spa/cura.jpg"
       }
   },
   "@openmrs/esm-primary-navigation-app": {
       "logo": {
-          "src": "/openmrs/spa/ehospitallogo.jpg"
+          "src": "/openmrs/spa/cura.jpg"
         },
     "extensionSlots": {
       "app-menu-slot": {
@@ -79,7 +79,7 @@
     "restrictByVisitLocationTag": true,
     "showUpcomingAppointments": true,
       "logo": {
-          "src": "/openmrs/spa/ehospitallogo.jpg"
+          "src": "/openmrs/spa/cura.jpg"
       },
       "extensionSlots": {
         "patient-chart-dashboard-slot": {

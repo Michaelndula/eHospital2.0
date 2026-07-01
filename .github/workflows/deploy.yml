@@ -32,4 +32,4 @@ jobs:
             # Reset to origin/main to avoid stash-pop merge conflicts during deploy.
             # Any local server modifications will be discarded; keep config outside the repo.
             git reset --hard origin/main
-            docker compose up -d --build --remove-orphans
+            docker compose -f docker-compose.yml -f docker-compose.override.yml up -d --build --remove-orphans         
